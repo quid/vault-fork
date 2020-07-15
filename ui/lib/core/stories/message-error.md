@@ -18,7 +18,7 @@
 
 **See**
 
-- [Uses of MessageError](https://github.com/hashicorp/vault/search?l=Handlebars&q=MessageError)
-- [MessageError Source Code](https://github.com/hashicorp/vault/blob/master/ui/app/components/message-error.js)
+- [Uses of MessageError](https://github.com/quid/vault/search?l=Handlebars&q=MessageError)
+- [MessageError Source Code](https://github.com/quid/vault/blob/master/ui/app/components/message-error.js)
 
 ---

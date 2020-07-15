@@ -6,10 +6,10 @@ import (
 
 	log "github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-memdb"
-	"github.com/hashicorp/vault/helper/identity"
-	"github.com/hashicorp/vault/helper/storagepacker"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/helper/identity"
+	"github.com/quid/vault/helper/storagepacker"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/logical"
 )
 
 const (

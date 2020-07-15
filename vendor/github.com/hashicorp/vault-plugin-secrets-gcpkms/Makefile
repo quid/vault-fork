@@ -1,6 +1,6 @@
 GOMAXPROCS = 4
 
-PROJECT    = "github.com/hashicorp/vault-plugin-secrets-gcpkms"
+PROJECT    = "github.com/quid/vault-plugin-secrets-gcpkms"
 NAME       = $(shell go run version/cmd/main.go name)
 VERSION    = $(shell go run version/cmd/main.go version)
 COMMIT     = $(shell git rev-parse --short HEAD)
@@ -71,6 +71,6 @@ website-sync:
 		git clean --quiet -ffxd; \
 		git pull --quiet origin master; \
 	else \
-		git clone --quiet --depth=1 https://github.com/hashicorp/vault .vault-master; \
+		git clone --quiet --depth=1 https://github.com/quid/vault .vault-master; \
 	fi
 	rsync --quiet -a website/ .vault-master/website

@@ -8,14 +8,14 @@ import (
 	"time"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/helper/namespace"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/pluginutil"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/helper/namespace"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/sdk/database/dbplugin"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/helper/pluginutil"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 )
 
 type mockPlugin struct {

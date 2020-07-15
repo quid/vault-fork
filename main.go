@@ -1,9 +1,9 @@
-package main // import "github.com/hashicorp/vault"
+package main // import "github.com/quid/vault"
 
 import (
 	"os"
 
-	"github.com/hashicorp/vault/command"
+	"github.com/quid/vault/command"
 )
 
 func main() {

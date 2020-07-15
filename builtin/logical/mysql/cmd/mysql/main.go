@@ -4,9 +4,9 @@ import (
 	"os"
 
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/builtin/logical/mysql"
-	"github.com/hashicorp/vault/sdk/plugin"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/builtin/logical/mysql"
+	"github.com/quid/vault/sdk/plugin"
 )
 
 func main() {

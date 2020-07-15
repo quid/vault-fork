@@ -16,7 +16,7 @@ The HttpRequestsContainer component is the parent component of the HttpRequestsD
 
 **See**
 
-- [Uses of HttpRequestsContainer](https://github.com/hashicorp/vault/search?l=Handlebars&q=HttpRequestsContainer+OR+http-requests-container)
-- [HttpRequestsContainer Source Code](https://github.com/hashicorp/vault/blob/master/ui/app/components/http-requests-container.js)
+- [Uses of HttpRequestsContainer](https://github.com/quid/vault/search?l=Handlebars&q=HttpRequestsContainer+OR+http-requests-container)
+- [HttpRequestsContainer Source Code](https://github.com/quid/vault/blob/master/ui/app/components/http-requests-container.js)
 
 ---

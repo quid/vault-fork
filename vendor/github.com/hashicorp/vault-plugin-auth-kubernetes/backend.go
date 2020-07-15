@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/logical"
 )
 
 const (

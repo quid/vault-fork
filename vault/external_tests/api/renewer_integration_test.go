@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/api"
-	postgreshelper "github.com/hashicorp/vault/helper/testhelpers/postgresql"
+	"github.com/quid/vault/api"
+	postgreshelper "github.com/quid/vault/helper/testhelpers/postgresql"
 )
 
 func TestRenewer_Renew(t *testing.T) {

@@ -3,7 +3,7 @@ package mock
 import (
 	"testing"
 
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/logical"
 )
 
 func TestBackend_impl(t *testing.T) {

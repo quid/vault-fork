@@ -10,8 +10,8 @@ import (
 
 	"golang.org/x/crypto/ed25519"
 
-	"github.com/hashicorp/vault/sdk/helper/keysutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/helper/keysutil"
+	"github.com/quid/vault/sdk/logical"
 	"github.com/mitchellh/mapstructure"
 )
 

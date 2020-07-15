@@ -8,8 +8,8 @@ import (
 
 	proto "github.com/golang/protobuf/proto"
 	wrapping "github.com/hashicorp/go-kms-wrapping"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/vault/seal"
+	"github.com/quid/vault/sdk/physical"
+	"github.com/quid/vault/vault/seal"
 )
 
 // phy implements physical.Backend. It maps keys to a slice of entries.

@@ -12,12 +12,12 @@ import (
 
 	"github.com/gocql/gocql"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
-	"github.com/hashicorp/vault/sdk/database/helper/connutil"
-	"github.com/hashicorp/vault/sdk/database/helper/dbutil"
-	"github.com/hashicorp/vault/sdk/helper/certutil"
-	"github.com/hashicorp/vault/sdk/helper/parseutil"
-	"github.com/hashicorp/vault/sdk/helper/tlsutil"
+	"github.com/quid/vault/sdk/database/dbplugin"
+	"github.com/quid/vault/sdk/database/helper/connutil"
+	"github.com/quid/vault/sdk/database/helper/dbutil"
+	"github.com/quid/vault/sdk/helper/certutil"
+	"github.com/quid/vault/sdk/helper/parseutil"
+	"github.com/quid/vault/sdk/helper/tlsutil"
 )
 
 // cassandraConnectionProducer implements ConnectionProducer and provides an

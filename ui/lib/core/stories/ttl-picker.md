@@ -26,7 +26,7 @@ TtlPicker2 will be renamed to TtlPicker.
 
 **See**
 
-- [Uses of TtlPicker](https://github.com/hashicorp/vault/search?l=Handlebars&q=TtlPicker+OR+ttl-picker)
-- [TtlPicker Source Code](https://github.com/hashicorp/vault/blob/master/ui/lib/core/addon/components/ttl-picker.js)
+- [Uses of TtlPicker](https://github.com/quid/vault/search?l=Handlebars&q=TtlPicker+OR+ttl-picker)
+- [TtlPicker Source Code](https://github.com/quid/vault/blob/master/ui/lib/core/addon/components/ttl-picker.js)
 
 ---

@@ -12,11 +12,11 @@ import (
 	"testing"
 
 	"github.com/go-test/deep"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/helper/pgpkeys"
-	"github.com/hashicorp/vault/helper/xor"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/helper/pgpkeys"
+	"github.com/quid/vault/helper/xor"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 )
 
 func TestSysGenerateRootAttempt_Status(t *testing.T) {

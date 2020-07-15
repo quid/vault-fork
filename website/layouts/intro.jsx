@@ -29,7 +29,7 @@ export default function IntroLayoutWrapper(pageMeta) {
             data,
             order,
           }}
-          resourceURL={`https://github.com/hashicorp/vault/blob/master/website/pages/${pageMeta.__resourcePath}`}
+          resourceURL={`https://github.com/quid/vault/blob/master/website/pages/${pageMeta.__resourcePath}`}
         />
       </MDXProvider>
     )

@@ -3,8 +3,8 @@ package audit
 import (
 	"context"
 
-	"github.com/hashicorp/vault/sdk/helper/salt"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/helper/salt"
+	"github.com/quid/vault/sdk/logical"
 )
 
 // Backend interface must be implemented for an audit

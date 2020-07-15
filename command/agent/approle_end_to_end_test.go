@@ -10,16 +10,16 @@ import (
 	"time"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	credAppRole "github.com/hashicorp/vault/builtin/credential/approle"
-	"github.com/hashicorp/vault/command/agent/auth"
-	agentapprole "github.com/hashicorp/vault/command/agent/auth/approle"
-	"github.com/hashicorp/vault/command/agent/sink"
-	"github.com/hashicorp/vault/command/agent/sink/file"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	credAppRole "github.com/quid/vault/builtin/credential/approle"
+	"github.com/quid/vault/command/agent/auth"
+	agentapprole "github.com/quid/vault/command/agent/auth/approle"
+	"github.com/quid/vault/command/agent/sink"
+	"github.com/quid/vault/command/agent/sink/file"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/sdk/helper/logging"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 )
 
 func TestAppRoleEndToEnd(t *testing.T) {

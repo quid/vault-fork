@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/quid/vault/api"
 	"github.com/posener/complete"
 )
 

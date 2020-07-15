@@ -10,9 +10,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/hashicorp/vault/helper/builtinplugins"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/pluginutil"
+	"github.com/quid/vault/helper/builtinplugins"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/helper/pluginutil"
 )
 
 func TestPluginCatalog_CRUD(t *testing.T) {

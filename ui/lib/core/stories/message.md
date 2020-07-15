@@ -33,7 +33,7 @@
 
 **See**
 
-- [Uses of Confirm](https://github.com/hashicorp/vault/search?l=Handlebars&q=Confirm+OR+confirm)
-- [Confirm Source Code](https://github.com/hashicorp/vault/blob/master/ui/lib/core/addon/components/confirm.js)
+- [Uses of Confirm](https://github.com/quid/vault/search?l=Handlebars&q=Confirm+OR+confirm)
+- [Confirm Source Code](https://github.com/quid/vault/blob/master/ui/lib/core/addon/components/confirm.js)
 
 ---

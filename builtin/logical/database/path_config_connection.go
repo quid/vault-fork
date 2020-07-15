@@ -10,9 +10,9 @@ import (
 	"github.com/fatih/structs"
 	"github.com/hashicorp/errwrap"
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/database/dbplugin"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/logical"
 )
 
 var (

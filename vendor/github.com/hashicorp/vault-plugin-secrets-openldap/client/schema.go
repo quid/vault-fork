@@ -2,7 +2,7 @@ package client
 
 import (
 	"fmt"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
+	"github.com/quid/vault/sdk/helper/strutil"
 )
 
 // SupportedSchemas returns a slice of different OpenLDAP schemas supported

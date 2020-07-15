@@ -1,6 +1,6 @@
 package pki
 
-import "github.com/hashicorp/vault/sdk/framework"
+import "github.com/quid/vault/sdk/framework"
 
 // addIssueAndSignCommonFields adds fields common to both CA and non-CA issuing
 // and signing

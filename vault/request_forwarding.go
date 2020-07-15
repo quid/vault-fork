@@ -15,11 +15,11 @@ import (
 	"time"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/helper/forwarding"
+	"github.com/quid/vault/helper/forwarding"
 
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/vault/cluster"
-	"github.com/hashicorp/vault/vault/replication"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/vault/cluster"
+	"github.com/quid/vault/vault/replication"
 	"golang.org/x/net/http2"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"

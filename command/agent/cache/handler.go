@@ -14,10 +14,10 @@ import (
 
 	"github.com/hashicorp/errwrap"
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/command/agent/sink"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/command/agent/sink"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/logical"
 )
 
 func Handler(ctx context.Context, logger hclog.Logger, proxier Proxier, inmemSink sink.Sink, proxyVaultToken bool) http.Handler {

@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/helper/jsonutil"
+	"github.com/quid/vault/sdk/logical"
 )
 
 // CubbyholeBackendFactory constructs a new cubbyhole backend

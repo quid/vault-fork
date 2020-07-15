@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/go-ldap/ldap/v3"
-	"github.com/hashicorp/vault/sdk/helper/ldaputil"
+	"github.com/quid/vault/sdk/helper/ldaputil"
 )
 
 type Config struct {

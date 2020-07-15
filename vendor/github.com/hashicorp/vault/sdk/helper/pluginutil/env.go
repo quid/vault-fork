@@ -4,7 +4,7 @@ import (
 	"os"
 
 	version "github.com/hashicorp/go-version"
-	"github.com/hashicorp/vault/sdk/helper/mlock"
+	"github.com/quid/vault/sdk/helper/mlock"
 )
 
 var (

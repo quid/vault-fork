@@ -9,7 +9,7 @@ package vault
 import (
 	context "context"
 	proto "github.com/golang/protobuf/proto"
-	forwarding "github.com/hashicorp/vault/helper/forwarding"
+	forwarding "github.com/quid/vault/helper/forwarding"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

@@ -17,7 +17,7 @@ block.
 
 **See**
 
-- [Uses of PopupMenu](https://github.com/hashicorp/vault/search?l=Handlebars&q=PopupMenu)
-- [PopupMenu Source Code](https://github.com/hashicorp/vault/blob/master/ui/app/components/popup-menu.js)
+- [Uses of PopupMenu](https://github.com/quid/vault/search?l=Handlebars&q=PopupMenu)
+- [PopupMenu Source Code](https://github.com/quid/vault/blob/master/ui/app/components/popup-menu.js)
 
 ---

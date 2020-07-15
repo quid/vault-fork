@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/logging"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/helper/logging"
 )
 
 // TestEnvVar must be set to a non-empty value for acceptance tests to run.

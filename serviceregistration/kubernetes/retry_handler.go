@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-hclog"
-	sr "github.com/hashicorp/vault/serviceregistration"
-	"github.com/hashicorp/vault/serviceregistration/kubernetes/client"
+	sr "github.com/quid/vault/serviceregistration"
+	"github.com/quid/vault/serviceregistration/kubernetes/client"
 	"github.com/oklog/run"
 )
 

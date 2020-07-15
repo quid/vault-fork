@@ -69,7 +69,7 @@ The contents of `data.json` in this example are:
  "full_name" : "Hashicorp Vault",
  "metadata" : {
    "plugin_name": "Vault Plugin Secrets ElasticSearch",
-   "plugin_url": "https://github.com/hashicorp/vault-plugin-secrets-elasticsearch"
+   "plugin_url": "https://github.com/quid/vault-plugin-secrets-elasticsearch"
  }
 }
 ```

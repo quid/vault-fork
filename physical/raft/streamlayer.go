@@ -23,9 +23,9 @@ import (
 	log "github.com/hashicorp/go-hclog"
 	uuid "github.com/hashicorp/go-uuid"
 	"github.com/hashicorp/raft"
-	"github.com/hashicorp/vault/sdk/helper/certutil"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/vault/cluster"
+	"github.com/quid/vault/sdk/helper/certutil"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/vault/cluster"
 )
 
 // TLSKey is a single TLS keypair in the Keyring

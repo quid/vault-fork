@@ -17,7 +17,7 @@
 
 **See**
 
-- [Uses of Chevron](https://github.com/hashicorp/vault/search?l=Handlebars&q=Chevron+OR+chevron)
-- [Chevron Source Code](https://github.com/hashicorp/vault/blob/master/ui/lib/core/addon/components/chevron.js)
+- [Uses of Chevron](https://github.com/quid/vault/search?l=Handlebars&q=Chevron+OR+chevron)
+- [Chevron Source Code](https://github.com/quid/vault/blob/master/ui/lib/core/addon/components/chevron.js)
 
 ---

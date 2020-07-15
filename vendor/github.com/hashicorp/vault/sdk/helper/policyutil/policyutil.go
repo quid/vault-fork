@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/vault/sdk/helper/strutil"
+	"github.com/quid/vault/sdk/helper/strutil"
 )
 
 const (

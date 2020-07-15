@@ -2,7 +2,7 @@
 
 **IMPORTANT: This plugin is currently under development.  Feel free to test it out following the instructions under the Developing section below, however consider this beta until it is verified by HashiCorp. Once verified and released versions will be documented in a CHANGELOG**
 
-This contains two Secrets Engines specific to MongoDB Atlas for use with [Hashicorp Vault](https://github.com/hashicorp/vault).
+This contains two Secrets Engines specific to MongoDB Atlas for use with [Hashicorp Vault](https://github.com/quid/vault).
 The first is the MongoDB Atlas Secrets Engine which generates unique, ephemeral [Programmatic API](https://docs.atlas.mongodb.com/reference/api/apiKeys/) keys for MongoDB Atlas.
 The second is an extension of the existing Database Secrets Engine and allows generation of unique, ephemeral
 programmatic MongoDB [Database User](https://docs.atlas.mongodb.com/reference/api/database-users/) credentials in MongoDB Atlas, thus we refer to it as the Database Secrets
@@ -24,7 +24,7 @@ directly via [security@mongodb.com](mailto:security@mongodb.com) or
 - [MongoDB Atlas Website](https://www.mongodb.com/cloud/atlas)
 - [MongoDB Atlas Secrets Engine Docs](https://www.vaultproject.io/docs/secrets/mongodbatlas/index.html)
 - [Database Secrets Engine for MongoDB Atlas](https://www.vaultproject.io/docs/secrets/databases/mongodbatlas.html)
-- [Vault Github](https://www.github.com/hashicorp/vault)
+- [Vault Github](https://www.github.com/quid/vault)
 - [Vault General Announcement List](https://groups.google.com/forum/#!forum/hashicorp-announce)
 - [Vault Discussion List](https://groups.google.com/forum/#!forum/vault-tool)
 
@@ -101,7 +101,7 @@ Clone this repository:
 
 ```
 
-mkdir $GOPATH/src/github.com/hashicorp/vault-plugin-secrets-mongodbatlas`
+mkdir $GOPATH/src/github.com/quid/vault-plugin-secrets-mongodbatlas`
 cd $GOPATH/src/github.com/hashicorp/
 git clone git@github.com:mongodb/vault-plugin-secrets-mongodbatlas.git
 go mod download

@@ -9,8 +9,8 @@ import (
 
 	log "github.com/hashicorp/go-hclog"
 	plugin "github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/vault/sdk/helper/pluginutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/helper/pluginutil"
+	"github.com/quid/vault/sdk/logical"
 )
 
 // BackendPluginName is the name of the plugin that can be

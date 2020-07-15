@@ -20,10 +20,10 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/hashicorp/go-raftchunking"
 	"github.com/hashicorp/raft"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/sdk/plugin/pb"
+	"github.com/quid/vault/sdk/helper/jsonutil"
+	"github.com/quid/vault/sdk/helper/strutil"
+	"github.com/quid/vault/sdk/physical"
+	"github.com/quid/vault/sdk/plugin/pb"
 	bolt "github.com/etcd-io/bbolt"
 )
 

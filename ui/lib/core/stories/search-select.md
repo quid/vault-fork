@@ -25,7 +25,7 @@ The `SearchSelect` is an implementation of the [ember-power-select-with-create](
 
 **See**
 
-- [Uses of SearchSelect](https://github.com/hashicorp/vault/search?l=Handlebars&q=SearchSelect+OR+search-select)
-- [SearchSelect Source Code](https://github.com/hashicorp/vault/blob/master/ui/lib/core/addon/components/search-select.js)
+- [Uses of SearchSelect](https://github.com/quid/vault/search?l=Handlebars&q=SearchSelect+OR+search-select)
+- [SearchSelect Source Code](https://github.com/quid/vault/blob/master/ui/lib/core/addon/components/search-select.js)
 
 ---

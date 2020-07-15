@@ -10,8 +10,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/hashicorp/vault/helper/pgpkeys"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/helper/pgpkeys"
+	"github.com/quid/vault/vault"
 
 	"github.com/keybase/go-crypto/openpgp"
 	"github.com/keybase/go-crypto/openpgp/packet"

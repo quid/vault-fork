@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/sdk/helper/password"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/sdk/helper/password"
 	"github.com/mitchellh/cli"
 	"github.com/posener/complete"
 )

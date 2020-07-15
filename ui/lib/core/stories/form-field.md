@@ -35,7 +35,7 @@
 
 **See**
 
-- [Uses of FormField](https://github.com/hashicorp/vault/search?l=Handlebars&q=form-field)
-- [FormField Source Code](https://github.com/hashicorp/vault/blob/master/ui/app/components/form-field.js)
+- [Uses of FormField](https://github.com/quid/vault/search?l=Handlebars&q=form-field)
+- [FormField Source Code](https://github.com/quid/vault/blob/master/ui/app/components/form-field.js)
 
 ---

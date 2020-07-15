@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/helper/testhelpers/docker"
-	logicaltest "github.com/hashicorp/vault/helper/testhelpers/logical"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/helper/testhelpers/docker"
+	logicaltest "github.com/quid/vault/helper/testhelpers/logical"
+	"github.com/quid/vault/sdk/logical"
 	"github.com/ory/dockertest"
 )
 

@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/logical"
 )
 
 func TestAppRole_TidyDanglingAccessors_Normal(t *testing.T) {

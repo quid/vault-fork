@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/fatih/structs"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/helper/pgpkeys"
-	"github.com/hashicorp/vault/sdk/helper/password"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/helper/pgpkeys"
+	"github.com/quid/vault/sdk/helper/password"
 	"github.com/mitchellh/cli"
 	"github.com/posener/complete"
 )

@@ -9,9 +9,9 @@ import (
 	"io"
 	"net"
 
-	"github.com/hashicorp/vault/helper/proxyutil"
-	"github.com/hashicorp/vault/internalshared/configutil"
-	"github.com/hashicorp/vault/internalshared/reloadutil"
+	"github.com/quid/vault/helper/proxyutil"
+	"github.com/quid/vault/internalshared/configutil"
+	"github.com/quid/vault/internalshared/reloadutil"
 	"github.com/mitchellh/cli"
 )
 

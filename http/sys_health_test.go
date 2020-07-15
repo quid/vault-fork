@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/vault"
 )
 
 func TestSysHealth_get(t *testing.T) {

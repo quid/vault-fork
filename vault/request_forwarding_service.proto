@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/hashicorp/vault/vault";
+option go_package = "github.com/quid/vault/vault";
 
 import "helper/forwarding/types.proto";
 

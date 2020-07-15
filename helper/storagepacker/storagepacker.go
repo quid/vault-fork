@@ -13,9 +13,9 @@ import (
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/go-hclog"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/helper/compressutil"
-	"github.com/hashicorp/vault/sdk/helper/locksutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/helper/compressutil"
+	"github.com/quid/vault/sdk/helper/locksutil"
+	"github.com/quid/vault/sdk/logical"
 )
 
 const (

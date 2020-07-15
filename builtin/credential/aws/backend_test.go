@@ -14,10 +14,10 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/sts"
-	logicaltest "github.com/hashicorp/vault/helper/testhelpers/logical"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/policyutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	logicaltest "github.com/quid/vault/helper/testhelpers/logical"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/helper/policyutil"
+	"github.com/quid/vault/sdk/logical"
 )
 
 const testVaultHeaderValue = "VaultAcceptanceTesting"

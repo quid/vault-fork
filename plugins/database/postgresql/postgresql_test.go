@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/helper/testhelpers/postgresql"
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
-	"github.com/hashicorp/vault/sdk/helper/dbtxn"
+	"github.com/quid/vault/helper/testhelpers/postgresql"
+	"github.com/quid/vault/sdk/database/dbplugin"
+	"github.com/quid/vault/sdk/helper/dbtxn"
 	"github.com/lib/pq"
 )
 
@@ -127,7 +127,7 @@ func TestPostgreSQL_CreateUser(t *testing.T) {
 			},
 			shouldTestCredsExist: true,
 		},
-		// https://github.com/hashicorp/vault/issues/6098
+		// https://github.com/quid/vault/issues/6098
 		"reproduce GH-6098": {
 			createStmts: []string{
 				// NOTE: "rolname" in the following line is not a typo.

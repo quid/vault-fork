@@ -4,8 +4,8 @@ import (
 	"errors"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/helper/identitytpl"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/helper/identitytpl"
+	"github.com/quid/vault/sdk/logical"
 )
 
 // PopulateIdentityTemplate takes a template string, an entity ID, and an

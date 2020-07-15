@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/helper/testhelpers/certhelpers"
-	"github.com/hashicorp/vault/helper/testhelpers/mongodb"
+	"github.com/quid/vault/helper/testhelpers/certhelpers"
+	"github.com/quid/vault/helper/testhelpers/mongodb"
 	"github.com/ory/dockertest"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

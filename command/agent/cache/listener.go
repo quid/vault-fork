@@ -7,9 +7,9 @@ import (
 
 	"strings"
 
-	"github.com/hashicorp/vault/command/server"
-	"github.com/hashicorp/vault/internalshared/configutil"
-	"github.com/hashicorp/vault/internalshared/listenerutil"
+	"github.com/quid/vault/command/server"
+	"github.com/quid/vault/internalshared/configutil"
+	"github.com/quid/vault/internalshared/listenerutil"
 )
 
 func StartListener(lnConfig *configutil.Listener) (net.Listener, *tls.Config, error) {

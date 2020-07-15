@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/logical"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/physical/inmem"
+	"github.com/quid/vault/sdk/helper/logging"
+	"github.com/quid/vault/sdk/physical/inmem"
 )
 
 func TestConfig_Enabled(t *testing.T) {

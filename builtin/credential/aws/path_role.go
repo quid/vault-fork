@@ -9,10 +9,10 @@ import (
 
 	"github.com/hashicorp/errwrap"
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/tokenutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/helper/tokenutil"
+	"github.com/quid/vault/sdk/logical"
 	"github.com/mitchellh/copystructure"
 )
 

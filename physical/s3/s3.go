@@ -21,10 +21,10 @@ import (
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/go-cleanhttp"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/helper/awsutil"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/parseutil"
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/quid/vault/sdk/helper/awsutil"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/helper/parseutil"
+	"github.com/quid/vault/sdk/physical"
 )
 
 // Verify S3Backend satisfies the correct interfaces

@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/vault/api"
-	pwd "github.com/hashicorp/vault/sdk/helper/password"
+	"github.com/quid/vault/api"
+	pwd "github.com/quid/vault/sdk/helper/password"
 	"github.com/mitchellh/mapstructure"
 )
 

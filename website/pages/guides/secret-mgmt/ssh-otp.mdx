@@ -24,7 +24,7 @@ password modes. This guide demonstrates the one-time SSH password mode.
 
 - [One-Time SSH Passwords](/docs/secrets/ssh/one-time-ssh-passwords)
 - [SSH Secrets Engine (API)](/api/secret/ssh)
-- [Vault SSH Helper](https://github.com/hashicorp/vault-ssh-helper)
+- [Vault SSH Helper](https://github.com/quid/vault-ssh-helper)
 
 ## Estimated Time to Complete
 
@@ -113,7 +113,7 @@ You will perform the following:
 (**Persona:** operations)
 
 The SSH secrets engine uses [Vault SSH
-Helper](https://github.com/hashicorp/vault-ssh-helper) to verify the OTP used
+Helper](https://github.com/quid/vault-ssh-helper) to verify the OTP used
 during the SSH authentication. Therefore, the helper agent must be installed
 onto every **_target host_**.
 
@@ -159,7 +159,7 @@ onto every **_target host_**.
     allowed_roles = "*"
     ```
 
-    > Refer to the [documentation](https://github.com/hashicorp/vault-ssh-helper#vault-ssh-helper-configuration)
+    > Refer to the [documentation](https://github.com/quid/vault-ssh-helper#vault-ssh-helper-configuration)
     > for the entire list of configuration properties.
 
 1.  Modify the **`/etc/pam.d/sshd`** file as follows:
@@ -179,7 +179,7 @@ onto every **_target host_**.
     commented out in favor of using our custom configuration.
 
     > Refer to the
-    > [documentation](https://github.com/hashicorp/vault-ssh-helper#pam-configuration)
+    > [documentation](https://github.com/quid/vault-ssh-helper#pam-configuration)
     > for details about these parameter settings.
 
 1.  Modify the **`/etc/ssh/sshd_config`** file.

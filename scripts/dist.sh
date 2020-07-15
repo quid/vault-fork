@@ -41,7 +41,7 @@ fi
 # Build the packages
 if [ -z $NOBUILD ]; then
   # This should be a local build of the Dockerfile in the cross dir
-  docker run --rm -v "$(pwd)":/gopath/src/github.com/hashicorp/vault -w /gopath/src/github.com/hashicorp/vault ${DOCKER_CROSS_IMAGE}
+  docker run --rm -v "$(pwd)":/gopath/src/github.com/quid/vault -w /gopath/src/github.com/quid/vault ${DOCKER_CROSS_IMAGE}
 fi
 
 # Zip all the files

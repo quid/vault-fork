@@ -15,11 +15,11 @@ import (
 
 	"github.com/hashicorp/errwrap"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/helper/parseutil"
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/quid/vault/sdk/helper/parseutil"
+	"github.com/quid/vault/sdk/physical"
 
 	metrics "github.com/armon/go-metrics"
-	"github.com/hashicorp/vault/sdk/helper/tlsutil"
+	"github.com/quid/vault/sdk/helper/tlsutil"
 	"github.com/samuel/go-zookeeper/zk"
 )
 

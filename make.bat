@@ -87,7 +87,7 @@ REM any common errors.
 	set _VAULT_PKG_DIRS=%TEMP%\vault-pkg-dirs.txt
 
 	go list -f {{.Dir}} ./... | findstr /v vendor >"%_VAULT_PKG_DIRS%"
-	REM Skip the first row, which is the main vault package (.*github.com/hashicorp/vault$)
+	REM Skip the first row, which is the main vault package (.*github.com/quid/vault$)
 	for /f "delims= skip=1" %%d in ("%_VAULT_PKG_DIRS%") do (
 		go tool vet %_VETARGS% "%%d"
 		if ERRORLEVEL 1 set _vetExitCode=1

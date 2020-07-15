@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/logical"
 )
 
 func TestTransit_BackupRestore(t *testing.T) {

@@ -3,7 +3,7 @@ package openldap
 import (
 	"fmt"
 
-	"github.com/hashicorp/vault-plugin-secrets-openldap/client"
+	"github.com/quid/vault-plugin-secrets-openldap/client"
 )
 
 type ldapClient interface {

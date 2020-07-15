@@ -62,9 +62,9 @@ In an effort to support our self-serve model we’ve included links to resources
 - [Writing vendor extension guide](https://learn.hashicorp.com/vault#operations-and-development)
 - Sample development implemented by a [partner](https://www.hashicorp.com/integrations/venafi/vault/)
 - Example vendor extensions for reference: [Aqua](https://www.hashicorp.com/integrations/aqua-security/vault/), [Demisto](https://www.demisto.com/integrations/?_sf_s=hashicorp)
-- Contributing to Vault [guidelines](https://github.com/hashicorp/vault/blob/master/CONTRIBUTING.md)
+- Contributing to Vault [guidelines](https://github.com/quid/vault/blob/master/CONTRIBUTING.md)
 - [Vault Community Forum](https://discuss.hashicorp.com/c/vault)
-- [Vault's source code](https://github.com/hashicorp/vault)
+- [Vault's source code](https://github.com/quid/vault)
 
 We encourage vendors to closely follow the above guidance. Adopting the same structure and coding patterns helps expedite the review and release cycles.
 
@@ -76,7 +76,7 @@ Auth Methods
 
 - [Auth Methods documentation](/docs/auth)
 - [Example of how to build, install, and maintain auth method plugins plugin](https://www.hashicorp.com/blog/building-a-vault-secure-plugin)
-- [Sample plugin code](https://github.com/hashicorp/vault-auth-plugin-example)
+- [Sample plugin code](https://github.com/quid/vault-auth-plugin-example)
 
 Runtime Integration
 
@@ -93,14 +93,14 @@ Audit, Monitoring & Compliance Integration
 Secrets Engine Integration
 
 - [Secret engine documentation](/docs/secrets)
-- There is currently no empty sample secrets plugin; however, the [AliCloud Secrets Plugin](https://github.com/hashicorp/vault-plugin-secrets-alicloud) was written recently and is fairly simple
+- There is currently no empty sample secrets plugin; however, the [AliCloud Secrets Plugin](https://github.com/quid/vault-plugin-secrets-alicloud) was written recently and is fairly simple
 - [Storage configuration documentation](/docs/configuration/storage)
 
 ### 4. Review
 
 During the review process, HashiCorp will provide feedback on the newly developed integration. This is an important step to allow HashiCorp to review and verify your Vault integration. Please send the integration code and other relevant logs for verification to: vault-integration-dev@hashicorp.com.
 
-For Auth, Secret and Storage plugins please submit a GitHub pull request (PR) against the [Vault project](https://github.com/hashicorp/vault). In some cases the vendor may need to provide HashiCorp with a permanent test account so that the integration can be verified on an ongoing basis.
+For Auth, Secret and Storage plugins please submit a GitHub pull request (PR) against the [Vault project](https://github.com/quid/vault). In some cases the vendor may need to provide HashiCorp with a permanent test account so that the integration can be verified on an ongoing basis.
 
 The review process can take a while to complete and may require some iterations through the code to address and problems identified by the HashiCorp team.
 

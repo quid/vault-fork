@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/command/token"
-	"github.com/hashicorp/vault/helper/namespace"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/command/token"
+	"github.com/quid/vault/helper/namespace"
 	"github.com/mitchellh/cli"
 	"github.com/pkg/errors"
 	"github.com/posener/complete"

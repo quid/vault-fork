@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/vault"
 )
 
 func TestSysAudit(t *testing.T) {

@@ -11,9 +11,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/helper/awsutil"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/quid/vault/sdk/helper/awsutil"
+	"github.com/quid/vault/sdk/helper/logging"
+	"github.com/quid/vault/sdk/physical"
 )
 
 func TestDefaultS3Backend(t *testing.T) {

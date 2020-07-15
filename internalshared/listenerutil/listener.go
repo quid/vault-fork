@@ -11,9 +11,9 @@ import (
 	"strconv"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/internalshared/configutil"
-	"github.com/hashicorp/vault/internalshared/reloadutil"
-	"github.com/hashicorp/vault/sdk/helper/tlsutil"
+	"github.com/quid/vault/internalshared/configutil"
+	"github.com/quid/vault/internalshared/reloadutil"
+	"github.com/quid/vault/sdk/helper/tlsutil"
 	"github.com/jefferai/isbadcipher"
 	"github.com/mitchellh/cli"
 )

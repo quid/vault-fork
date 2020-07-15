@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/hashicorp/vault/sdk/helper/strutil"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/sdk/helper/strutil"
+	"github.com/quid/vault/vault"
 )
 
 var allowedMethods = []string{

@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
+	"github.com/quid/vault/api"
 )
 
 // APIProxy is an implementation of the proxier interface that is used to

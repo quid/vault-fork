@@ -61,7 +61,7 @@ instructions are only useful if you want to develop against the plugin.**
 1. Clone the repo:
 
     ```text
-    $ git clone https://github.com/hashicorp/vault-plugin-secrets-gcpkms
+    $ git clone https://github.com/quid/vault-plugin-secrets-gcpkms
     $ cd vault-plugin-secrets-gcpkms
     ```
 
@@ -87,7 +87,7 @@ instructions are only useful if you want to develop against the plugin.**
 ### Documentation
 
 The documentation for the plugin lives in the [main Vault
-repository](//github.com/hashicorp/vault) in the `website/` folder. Please make any
+repository](//github.com/quid/vault) in the `website/` folder. Please make any
 documentation updates as separate Pull Requests against that repo.
 
 ### Tests

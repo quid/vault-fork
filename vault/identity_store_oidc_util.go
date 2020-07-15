@@ -3,7 +3,7 @@
 package vault
 
 import (
-	"github.com/hashicorp/vault/helper/namespace"
+	"github.com/quid/vault/helper/namespace"
 )
 
 func (i *IdentityStore) listNamespaces() []*namespace.Namespace {

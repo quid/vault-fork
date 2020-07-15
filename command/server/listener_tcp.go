@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/vault/internalshared/configutil"
-	"github.com/hashicorp/vault/internalshared/listenerutil"
-	"github.com/hashicorp/vault/internalshared/reloadutil"
+	"github.com/quid/vault/internalshared/configutil"
+	"github.com/quid/vault/internalshared/listenerutil"
+	"github.com/quid/vault/internalshared/reloadutil"
 	"github.com/mitchellh/cli"
 )
 

@@ -6,7 +6,7 @@ import (
 
 	"github.com/Sectorbob/mlab-ns2/gae/ns/digest"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/logical"
 	"github.com/mongodb/go-client-mongodb-atlas/mongodbatlas"
 )
 

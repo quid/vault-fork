@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-cleanhttp"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/vault"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/vault"
 	"golang.org/x/net/http2"
 )
 

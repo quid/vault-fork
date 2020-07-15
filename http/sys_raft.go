@@ -7,9 +7,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/hashicorp/vault/physical/raft"
-	"github.com/hashicorp/vault/sdk/helper/tlsutil"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/physical/raft"
+	"github.com/quid/vault/sdk/helper/tlsutil"
+	"github.com/quid/vault/vault"
 )
 
 func handleSysRaftBootstrap(core *vault.Core) http.Handler {

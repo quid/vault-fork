@@ -1,6 +1,6 @@
 # Vault Plugin: AliCloud Platform Secrets Backend
 
-This is a backend plugin to be used with [Hashicorp Vault](https://www.github.com/hashicorp/vault).
+This is a backend plugin to be used with [Hashicorp Vault](https://www.github.com/quid/vault).
 This plugin generates unique, ephemeral API keys and STS credentials.
 
 **Please note**: We take Vault's security and our users' trust very seriously. 
@@ -11,7 +11,7 @@ contacting us at [security@hashicorp.com](mailto:security@hashicorp.com).
 ## Quick Links
 - [Vault Website](https://www.vaultproject.io)
 - [AliCloud Secrets Docs](https://www.vaultproject.io/docs/secrets/alicloud/index.html)
-- [Vault Github](https://www.github.com/hashicorp/vault)
+- [Vault Github](https://www.github.com/quid/vault)
 - [General Announcement List](https://groups.google.com/forum/#!forum/hashicorp-announce)
 - [Discussion List](https://groups.google.com/forum/#!forum/vault-tool)
 
@@ -48,12 +48,12 @@ Clone this repository:
 
 ```
 
-mkdir $GOPATH/src/github.com/hashicorp/vault-plugin-secrets-alicloud`
+mkdir $GOPATH/src/github.com/quid/vault-plugin-secrets-alicloud`
 cd $GOPATH/src/github.com/hashicorp/
-git clone https://github.com/hashicorp/vault-plugin-secrets-alicloud.git
+git clone https://github.com/quid/vault-plugin-secrets-alicloud.git
 
 ```
-(or use `go get github.com/hashicorp/vault-plugin-secrets-alicloud` ).
+(or use `go get github.com/quid/vault-plugin-secrets-alicloud` ).
 
 You can then download any required build tools by bootstrapping your environment:
 

@@ -32,17 +32,17 @@ import (
 
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	vaulthttp "github.com/hashicorp/vault/http"
+	"github.com/quid/vault/api"
+	vaulthttp "github.com/quid/vault/http"
 
 	rootcerts "github.com/hashicorp/go-rootcerts"
-	"github.com/hashicorp/vault/builtin/logical/pki"
-	logicaltest "github.com/hashicorp/vault/helper/testhelpers/logical"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/certutil"
-	"github.com/hashicorp/vault/sdk/helper/tokenutil"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/builtin/logical/pki"
+	logicaltest "github.com/quid/vault/helper/testhelpers/logical"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/helper/certutil"
+	"github.com/quid/vault/sdk/helper/tokenutil"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 	"github.com/mitchellh/mapstructure"
 )
 

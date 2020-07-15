@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/vault/sdk/helper/keysutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/helper/keysutil"
+	"github.com/quid/vault/sdk/logical"
 )
 
 func TestTransit_HMAC(t *testing.T) {

@@ -10,14 +10,14 @@ import (
 	"sync/atomic"
 
 	wrapping "github.com/hashicorp/go-kms-wrapping"
-	"github.com/hashicorp/vault/physical/raft"
-	"github.com/hashicorp/vault/vault/seal"
+	"github.com/quid/vault/physical/raft"
+	"github.com/quid/vault/vault/seal"
 
 	"github.com/hashicorp/errwrap"
 	aeadwrapper "github.com/hashicorp/go-kms-wrapping/wrappers/aead"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/helper/pgpkeys"
-	"github.com/hashicorp/vault/shamir"
+	"github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/helper/pgpkeys"
+	"github.com/quid/vault/shamir"
 )
 
 // InitParams keeps the init function from being littered with too many

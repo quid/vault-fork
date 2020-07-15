@@ -10,12 +10,12 @@ import (
 	"github.com/go-test/deep"
 	"github.com/hashicorp/consul/api"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/helper/testhelpers/consul"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/sdk/physical/inmem"
-	sr "github.com/hashicorp/vault/serviceregistration"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/helper/testhelpers/consul"
+	"github.com/quid/vault/sdk/helper/logging"
+	"github.com/quid/vault/sdk/physical"
+	"github.com/quid/vault/sdk/physical/inmem"
+	sr "github.com/quid/vault/serviceregistration"
+	"github.com/quid/vault/vault"
 )
 
 type consulConf map[string]string

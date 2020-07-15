@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/hashicorp/vault/helper/pgpkeys"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/helper/pgpkeys"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/vault"
 )
 
 func handleSysRekeyInit(core *vault.Core, recovery bool) http.Handler {

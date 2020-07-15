@@ -4,14 +4,14 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 )
 
 // Tests the regression in
-// https://github.com/hashicorp/vault/pull/6920
+// https://github.com/quid/vault/pull/6920
 func TestRecoverFromPanic(t *testing.T) {
 	logger := hclog.New(nil)
 	coreConfig := &vault.CoreConfig{

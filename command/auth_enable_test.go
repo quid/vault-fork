@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/vault/helper/builtinplugins"
-	"github.com/hashicorp/vault/sdk/helper/consts"
+	"github.com/quid/vault/helper/builtinplugins"
+	"github.com/quid/vault/sdk/helper/consts"
 	"github.com/mitchellh/cli"
 )
 

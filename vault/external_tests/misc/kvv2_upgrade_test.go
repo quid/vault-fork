@@ -9,18 +9,18 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-hclog"
-	logicalKv "github.com/hashicorp/vault-plugin-secrets-kv"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/helper/testhelpers"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/vault"
+	logicalKv "github.com/quid/vault-plugin-secrets-kv"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/helper/testhelpers"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/sdk/physical"
+	"github.com/quid/vault/vault"
 	"github.com/kr/pretty"
 )
 
 // Tests the regression in
-// https://github.com/hashicorp/vault-plugin-secrets-kv/pull/31
+// https://github.com/quid/vault-plugin-secrets-kv/pull/31
 func TestKVv2_UpgradePaths(t *testing.T) {
 	m := new(sync.Mutex)
 	logOut := new(bytes.Buffer)

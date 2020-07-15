@@ -7,9 +7,9 @@ import (
 	"net/http"
 
 	"github.com/hashicorp/go-hclog"
-	kerberos "github.com/hashicorp/vault-plugin-auth-kerberos"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/command/agent/auth"
+	kerberos "github.com/quid/vault-plugin-auth-kerberos"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/command/agent/auth"
 	"github.com/jcmturner/gokrb5/v8/spnego"
 )
 

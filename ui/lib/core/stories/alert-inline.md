@@ -19,7 +19,7 @@
 
 **See**
 
-- [Uses of AlertInline](https://github.com/hashicorp/vault/search?l=Handlebars&q=AlertInline)
-- [AlertInline Source Code](https://github.com/hashicorp/vault/blob/master/ui/app/components/alert-inline.js)
+- [Uses of AlertInline](https://github.com/quid/vault/search?l=Handlebars&q=AlertInline)
+- [AlertInline Source Code](https://github.com/quid/vault/blob/master/ui/app/components/alert-inline.js)
 
 ---

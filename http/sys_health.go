@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/parseutil"
-	"github.com/hashicorp/vault/sdk/version"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/helper/parseutil"
+	"github.com/quid/vault/sdk/version"
+	"github.com/quid/vault/vault"
 )
 
 func handleSysHealth(core *vault.Core) http.Handler {

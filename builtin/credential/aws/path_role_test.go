@@ -8,11 +8,11 @@ import (
 	"testing"
 
 	"github.com/go-test/deep"
-	vlttesting "github.com/hashicorp/vault/helper/testhelpers/logical"
-	"github.com/hashicorp/vault/sdk/helper/awsutil"
-	"github.com/hashicorp/vault/sdk/helper/policyutil"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	vlttesting "github.com/quid/vault/helper/testhelpers/logical"
+	"github.com/quid/vault/sdk/helper/awsutil"
+	"github.com/quid/vault/sdk/helper/policyutil"
+	"github.com/quid/vault/sdk/helper/strutil"
+	"github.com/quid/vault/sdk/logical"
 )
 
 func TestBackend_pathRoleEc2(t *testing.T) {
@@ -989,7 +989,7 @@ func TestAwsVersion(t *testing.T) {
 	}
 }
 
-// This test was used to reproduce https://github.com/hashicorp/vault/issues/7418
+// This test was used to reproduce https://github.com/quid/vault/issues/7418
 // and verify its fix.
 // Please run it at least 3 times to ensure that passing tests are due to actually
 // passing, rather than the region being randomly chosen tying to the one in the

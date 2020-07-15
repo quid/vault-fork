@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/vault/helper/xor"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/helper/xor"
+	"github.com/quid/vault/vault"
 	"github.com/mitchellh/cli"
 )
 

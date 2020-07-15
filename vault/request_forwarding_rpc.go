@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hashicorp/vault/helper/forwarding"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/vault/replication"
+	"github.com/quid/vault/helper/forwarding"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/vault/replication"
 )
 
 type forwardedRequestRPCServer struct {

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/hashicorp/vault/helper/metricsutil"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/helper/metricsutil"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 )
 
 func handleMetricsUnauthenticated(core *vault.Core) http.Handler {

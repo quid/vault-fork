@@ -10,9 +10,9 @@ import (
 
 	oktaold "github.com/chrismalek/oktasdk-go/okta"
 	"github.com/hashicorp/go-cleanhttp"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/tokenutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/helper/tokenutil"
+	"github.com/quid/vault/sdk/logical"
 	oktanew "github.com/okta/okta-sdk-golang/okta"
 )
 

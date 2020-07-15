@@ -73,7 +73,7 @@ module('Acceptance | secrets/secret/create', function(hooks) {
     assert.ok(showPage.editIsPresent, 'shows the edit button');
   });
 
-  // https://github.com/hashicorp/vault/issues/5960
+  // https://github.com/quid/vault/issues/5960
   test('version 1: nested paths creation maintains ability to navigate the tree', async function(assert) {
     let enginePath = `kv-${new Date().getTime()}`;
     let secretPath = '1/2/3/4';
@@ -149,7 +149,7 @@ module('Acceptance | secrets/secret/create', function(hooks) {
     );
   });
 
-  // https://github.com/hashicorp/vault/issues/5994
+  // https://github.com/quid/vault/issues/5994
   test('version 1: key named keys', async function(assert) {
     await consoleComponent.runCommands([
       'vault write sys/mounts/test type=kv',

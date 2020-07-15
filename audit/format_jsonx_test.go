@@ -11,9 +11,9 @@ import (
 
 	"fmt"
 
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/helper/salt"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/sdk/helper/salt"
+	"github.com/quid/vault/sdk/logical"
 )
 
 func TestFormatJSONx_formatRequest(t *testing.T) {

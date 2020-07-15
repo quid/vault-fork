@@ -6,14 +6,14 @@ import (
 
 	"github.com/go-test/deep"
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/builtin/credential/ldap"
-	credUserpass "github.com/hashicorp/vault/builtin/credential/userpass"
-	ldaphelper "github.com/hashicorp/vault/helper/testhelpers/ldap"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/builtin/credential/ldap"
+	credUserpass "github.com/quid/vault/builtin/credential/userpass"
+	ldaphelper "github.com/quid/vault/helper/testhelpers/ldap"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/sdk/helper/strutil"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 )
 
 func TestPolicy_NoDefaultPolicy(t *testing.T) {

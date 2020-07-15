@@ -8,7 +8,7 @@ import (
 	testing "github.com/mitchellh/go-testing-interface"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/helper/logging"
+	"github.com/quid/vault/sdk/helper/logging"
 )
 
 // TestRequest is a helper to create a purely in-memory Request struct.

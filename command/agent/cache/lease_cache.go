@@ -17,16 +17,16 @@ import (
 
 	"github.com/hashicorp/errwrap"
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	cachememdb "github.com/hashicorp/vault/command/agent/cache/cachememdb"
-	"github.com/hashicorp/vault/helper/namespace"
-	nshelper "github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/helper/base62"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/cryptoutil"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
-	"github.com/hashicorp/vault/sdk/helper/locksutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/api"
+	cachememdb "github.com/quid/vault/command/agent/cache/cachememdb"
+	"github.com/quid/vault/helper/namespace"
+	nshelper "github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/sdk/helper/base62"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/helper/cryptoutil"
+	"github.com/quid/vault/sdk/helper/jsonutil"
+	"github.com/quid/vault/sdk/helper/locksutil"
+	"github.com/quid/vault/sdk/logical"
 )
 
 const (

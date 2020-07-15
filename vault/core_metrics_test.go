@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/armon/go-metrics"
-	logicalKv "github.com/hashicorp/vault-plugin-secrets-kv"
-	"github.com/hashicorp/vault/helper/metricsutil"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/logical"
+	logicalKv "github.com/quid/vault-plugin-secrets-kv"
+	"github.com/quid/vault/helper/metricsutil"
+	"github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/sdk/logical"
 )
 
 func TestCoreMetrics_KvSecretGauge(t *testing.T) {

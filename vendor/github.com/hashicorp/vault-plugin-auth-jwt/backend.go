@@ -8,8 +8,8 @@ import (
 
 	"github.com/coreos/go-oidc"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/logical"
 	"github.com/patrickmn/go-cache"
 )
 

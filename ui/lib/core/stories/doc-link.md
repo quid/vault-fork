@@ -16,7 +16,7 @@
 
 **See**
 
-- [Uses of DocLink](https://github.com/hashicorp/vault/search?l=Handlebars&q=DocLink)
-- [DocLink Source Code](https://github.com/hashicorp/vault/blob/master/ui/app/components/doc-link.js)
+- [Uses of DocLink](https://github.com/quid/vault/search?l=Handlebars&q=DocLink)
+- [DocLink Source Code](https://github.com/quid/vault/blob/master/ui/app/components/doc-link.js)
 
 ---

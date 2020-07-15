@@ -6,15 +6,15 @@ import (
 
 	"github.com/go-ldap/ldap/v3"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	ldapcred "github.com/hashicorp/vault/builtin/credential/ldap"
-	"github.com/hashicorp/vault/helper/namespace"
-	ldaphelper "github.com/hashicorp/vault/helper/testhelpers/ldap"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/helper/ldaputil"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	ldapcred "github.com/quid/vault/builtin/credential/ldap"
+	"github.com/quid/vault/helper/namespace"
+	ldaphelper "github.com/quid/vault/helper/testhelpers/ldap"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/sdk/helper/ldaputil"
+	"github.com/quid/vault/sdk/helper/strutil"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 )
 
 func TestIdentityStore_Integ_GroupAliases(t *testing.T) {

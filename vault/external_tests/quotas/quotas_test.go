@@ -5,14 +5,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/sdk/logical"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/vault/builtin/credential/userpass"
-	"github.com/hashicorp/vault/builtin/logical/pki"
-	"github.com/hashicorp/vault/helper/testhelpers/teststorage"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/builtin/credential/userpass"
+	"github.com/quid/vault/builtin/logical/pki"
+	"github.com/quid/vault/helper/testhelpers/teststorage"
+	"github.com/quid/vault/vault"
 	"go.uber.org/atomic"
 )
 

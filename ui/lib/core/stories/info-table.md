@@ -24,7 +24,7 @@ InfoTable components are a table with a single column and header. They are used 
 
 **See**
 
-- [Uses of InfoTable](https://github.com/hashicorp/vault/search?l=Handlebars&q=InfoTable+OR+info-table)
-- [InfoTable Source Code](https://github.com/hashicorp/vault/blob/master/ui/lib/core/addon/components/info-table.js)
+- [Uses of InfoTable](https://github.com/quid/vault/search?l=Handlebars&q=InfoTable+OR+info-table)
+- [InfoTable Source Code](https://github.com/quid/vault/blob/master/ui/lib/core/addon/components/info-table.js)
 
 ---

@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-cleanhttp"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/sdk/helper/jsonutil"
 )
 
 // testTesting is used for testing the legacy testing framework

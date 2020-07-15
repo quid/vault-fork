@@ -11,8 +11,8 @@ import (
 	"github.com/hashicorp/errwrap"
 	log "github.com/hashicorp/go-hclog"
 	wrapping "github.com/hashicorp/go-kms-wrapping"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/vault/seal"
+	"github.com/quid/vault/sdk/physical"
+	"github.com/quid/vault/vault/seal"
 )
 
 // barrierTypeUpgradeCheck checks for backwards compat on barrier type, not

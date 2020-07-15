@@ -22,7 +22,7 @@ function CommunityPage() {
           {
             header: 'Bug Tracker',
             body:
-              '[Issue tracker on GitHub](https://github.com/hashicorp/vault/issues) for reporting bugs. Use IRC or the mailing list for general help.',
+              '[Issue tracker on GitHub](https://github.com/quid/vault/issues) for reporting bugs. Use IRC or the mailing list for general help.',
           },
           {
             header: 'Training',

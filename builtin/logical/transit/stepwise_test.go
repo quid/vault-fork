@@ -6,10 +6,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/sdk/helper/keysutil"
-	"github.com/hashicorp/vault/sdk/testing/stepwise"
-	dockerEnvironment "github.com/hashicorp/vault/sdk/testing/stepwise/environments/docker"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/sdk/helper/keysutil"
+	"github.com/quid/vault/sdk/testing/stepwise"
+	dockerEnvironment "github.com/quid/vault/sdk/testing/stepwise/environments/docker"
 	"github.com/mitchellh/mapstructure"
 )
 

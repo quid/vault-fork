@@ -12,9 +12,9 @@ import (
 
 	ctconfig "github.com/hashicorp/consul-template/config"
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/command/agent/config"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/helper/pointerutil"
+	"github.com/quid/vault/command/agent/config"
+	"github.com/quid/vault/sdk/helper/logging"
+	"github.com/quid/vault/sdk/helper/pointerutil"
 )
 
 // TestNewServer is a simple test to make sure NewServer returns a Server and

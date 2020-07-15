@@ -7,13 +7,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/vault-plugin-auth-cf/models"
-	"github.com/hashicorp/vault-plugin-auth-cf/signatures"
-	"github.com/hashicorp/vault-plugin-auth-cf/util"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/cidrutil"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault-plugin-auth-cf/models"
+	"github.com/quid/vault-plugin-auth-cf/signatures"
+	"github.com/quid/vault-plugin-auth-cf/util"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/helper/cidrutil"
+	"github.com/quid/vault/sdk/helper/strutil"
+	"github.com/quid/vault/sdk/logical"
 	"github.com/pkg/errors"
 )
 

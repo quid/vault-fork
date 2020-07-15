@@ -9,10 +9,10 @@ import (
 	"time"
 
 	log "github.com/hashicorp/go-hclog"
-	logicaltest "github.com/hashicorp/vault/helper/testhelpers/logical"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/helper/policyutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	logicaltest "github.com/quid/vault/helper/testhelpers/logical"
+	"github.com/quid/vault/sdk/helper/logging"
+	"github.com/quid/vault/sdk/helper/policyutil"
+	"github.com/quid/vault/sdk/logical"
 )
 
 // To run this test, set the following env variables:

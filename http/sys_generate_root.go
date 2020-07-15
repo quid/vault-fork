@@ -8,8 +8,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/hashicorp/vault/sdk/helper/base62"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/sdk/helper/base62"
+	"github.com/quid/vault/vault"
 )
 
 func handleSysGenerateRootAttempt(core *vault.Core, generateStrategy vault.GenerateRootStrategy) http.Handler {

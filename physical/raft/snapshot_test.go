@@ -17,9 +17,9 @@ import (
 
 	hclog "github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/raft"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/sdk/plugin/pb"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/sdk/physical"
+	"github.com/quid/vault/sdk/plugin/pb"
 )
 
 type idAddr struct {

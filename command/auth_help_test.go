@@ -6,7 +6,7 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	credUserpass "github.com/hashicorp/vault/builtin/credential/userpass"
+	credUserpass "github.com/quid/vault/builtin/credential/userpass"
 )
 
 func testAuthHelpCommand(tb testing.TB) (*cli.MockUi, *AuthHelpCommand) {

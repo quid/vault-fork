@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/plugins/database/mssql"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/plugins/database/mssql"
 )
 
 func main() {

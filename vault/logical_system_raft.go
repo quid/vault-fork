@@ -7,15 +7,15 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/sdk/physical"
 
 	proto "github.com/golang/protobuf/proto"
 	wrapping "github.com/hashicorp/go-kms-wrapping"
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/physical/raft"
+	"github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/physical/raft"
 )
 
 // raftStoragePaths returns paths for use when raft is the storage mechanism.

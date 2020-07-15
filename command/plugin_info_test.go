@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/helper/consts"
 	"github.com/mitchellh/cli"
 )
 

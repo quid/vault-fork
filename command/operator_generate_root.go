@@ -11,11 +11,11 @@ import (
 
 	"github.com/hashicorp/errwrap"
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/helper/pgpkeys"
-	"github.com/hashicorp/vault/helper/xor"
-	"github.com/hashicorp/vault/sdk/helper/base62"
-	"github.com/hashicorp/vault/sdk/helper/password"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/helper/pgpkeys"
+	"github.com/quid/vault/helper/xor"
+	"github.com/quid/vault/sdk/helper/base62"
+	"github.com/quid/vault/sdk/helper/password"
 	"github.com/mitchellh/cli"
 	"github.com/posener/complete"
 )

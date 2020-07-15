@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/hashicorp/vault/sdk/helper/salt"
+	"github.com/quid/vault/sdk/helper/salt"
 	"github.com/jefferai/jsonx"
 )
 

@@ -14,16 +14,16 @@ import (
 	"time"
 
 	hclog "github.com/hashicorp/go-hclog"
-	vaultjwt "github.com/hashicorp/vault-plugin-auth-jwt"
-	logicalKv "github.com/hashicorp/vault-plugin-secrets-kv"
-	"github.com/hashicorp/vault/api"
-	credAppRole "github.com/hashicorp/vault/builtin/credential/approle"
-	"github.com/hashicorp/vault/command/agent"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	vaultjwt "github.com/quid/vault-plugin-auth-jwt"
+	logicalKv "github.com/quid/vault-plugin-secrets-kv"
+	"github.com/quid/vault/api"
+	credAppRole "github.com/quid/vault/builtin/credential/approle"
+	"github.com/quid/vault/command/agent"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/helper/logging"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 	"github.com/mitchellh/cli"
 )
 
@@ -944,7 +944,7 @@ func testListFiles(t *testing.T, dir, extension string) int {
 // similar to TestAgent_Template_Basic, but differs by using a consistent number
 // of secrets from multiple sources, where as the basic test could possibly
 // generate a random number of secrets, but all using the same source. This test
-// reproduces https://github.com/hashicorp/vault/issues/7883
+// reproduces https://github.com/quid/vault/issues/7883
 func TestAgent_Template_ExitCounter(t *testing.T) {
 	//----------------------------------------------------
 	// Start the server and agent

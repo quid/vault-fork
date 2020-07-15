@@ -8,7 +8,7 @@ import (
 	"time"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/logical"
 )
 
 type RouterTestHandlerFunc func(context.Context, *logical.Request) (*logical.Response, error)

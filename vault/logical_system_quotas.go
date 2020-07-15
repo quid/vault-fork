@@ -4,10 +4,10 @@ import (
 	"context"
 	"strings"
 
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault/quotas"
+	"github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault/quotas"
 )
 
 // quotasPaths returns paths that enable quota management

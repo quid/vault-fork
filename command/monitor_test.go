@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/helper/testhelpers"
+	"github.com/quid/vault/helper/testhelpers"
 	"github.com/mitchellh/cli"
 )
 

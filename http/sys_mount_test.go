@@ -8,7 +8,7 @@ import (
 	"github.com/go-test/deep"
 
 	"github.com/fatih/structs"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/vault"
 )
 
 func TestSysMounts(t *testing.T) {

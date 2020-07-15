@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/quid/vault/api"
 )
 
 // mockProxier is a mock implementation of the Proxier interface, used for testing purposes.

@@ -7,16 +7,16 @@ import (
 	"testing"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/builtin/plugin"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/helper/pluginutil"
-	"github.com/hashicorp/vault/sdk/logical"
-	logicalPlugin "github.com/hashicorp/vault/sdk/plugin"
-	"github.com/hashicorp/vault/sdk/plugin/mock"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/builtin/plugin"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/helper/logging"
+	"github.com/quid/vault/sdk/helper/pluginutil"
+	"github.com/quid/vault/sdk/logical"
+	logicalPlugin "github.com/quid/vault/sdk/plugin"
+	"github.com/quid/vault/sdk/plugin/mock"
+	"github.com/quid/vault/vault"
 )
 
 func TestBackend_impl(t *testing.T) {

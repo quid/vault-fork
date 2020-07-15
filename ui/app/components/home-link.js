@@ -12,8 +12,8 @@ import { computed } from '@ember/object';
  * </HomeLink>
  * ```
  *
- * @see {@link https://github.com/hashicorp/vault/search?l=Handlebars&q=HomeLink|Uses of HomeLink}
- * @see {@link https://github.com/hashicorp/vault/blob/master/ui/app/components/home-link.js|HomeLink Source Code}
+ * @see {@link https://github.com/quid/vault/search?l=Handlebars&q=HomeLink|Uses of HomeLink}
+ * @see {@link https://github.com/quid/vault/blob/master/ui/app/components/home-link.js|HomeLink Source Code}
  */
 
 export default Component.extend({

@@ -7,10 +7,10 @@ import (
 
 	"github.com/armon/go-metrics"
 	uuid "github.com/hashicorp/go-uuid"
-	credUserpass "github.com/hashicorp/vault/builtin/credential/userpass"
-	"github.com/hashicorp/vault/helper/metricsutil"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/logical"
+	credUserpass "github.com/quid/vault/builtin/credential/userpass"
+	"github.com/quid/vault/helper/metricsutil"
+	"github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/sdk/logical"
 )
 
 func TestRequestHandling_Wrapping(t *testing.T) {

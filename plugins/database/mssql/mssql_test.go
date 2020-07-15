@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	mssqlhelper "github.com/hashicorp/vault/helper/testhelpers/mssql"
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
-	"github.com/hashicorp/vault/sdk/helper/dbtxn"
+	mssqlhelper "github.com/quid/vault/helper/testhelpers/mssql"
+	"github.com/quid/vault/sdk/database/dbplugin"
+	"github.com/quid/vault/sdk/helper/dbtxn"
 )
 
 func TestMSSQL_Initialize(t *testing.T) {

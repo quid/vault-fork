@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-sockaddr"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
-	"github.com/hashicorp/vault/sdk/helper/tokenutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/helper/strutil"
+	"github.com/quid/vault/sdk/helper/tokenutil"
+	"github.com/quid/vault/sdk/logical"
 )
 
 // pathsRole returns the path configurations for the CRUD operations on roles

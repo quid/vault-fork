@@ -13,9 +13,9 @@ import (
 	"github.com/go-sql-driver/mysql"
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/sdk/database/helper/connutil"
-	"github.com/hashicorp/vault/sdk/database/helper/dbutil"
-	"github.com/hashicorp/vault/sdk/helper/parseutil"
+	"github.com/quid/vault/sdk/database/helper/connutil"
+	"github.com/quid/vault/sdk/database/helper/dbutil"
+	"github.com/quid/vault/sdk/helper/parseutil"
 	"github.com/mitchellh/mapstructure"
 )
 

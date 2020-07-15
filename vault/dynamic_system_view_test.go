@@ -10,10 +10,10 @@ import (
 	"time"
 
 	log "github.com/hashicorp/go-hclog"
-	ldapcred "github.com/hashicorp/vault/builtin/credential/ldap"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	ldapcred "github.com/quid/vault/builtin/credential/ldap"
+	"github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/logical"
 )
 
 func TestIdentity_BackendTemplating(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/sdk/physical"
 )
 
 const (

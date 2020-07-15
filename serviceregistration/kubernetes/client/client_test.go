@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-hclog"
-	kubetest "github.com/hashicorp/vault/serviceregistration/kubernetes/testing"
+	kubetest "github.com/quid/vault/serviceregistration/kubernetes/testing"
 )
 
 func TestClient(t *testing.T) {

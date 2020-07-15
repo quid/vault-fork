@@ -3,13 +3,13 @@ package transit_test
 import (
 	"testing"
 
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/audit"
-	"github.com/hashicorp/vault/builtin/audit/file"
-	"github.com/hashicorp/vault/builtin/logical/transit"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/audit"
+	"github.com/quid/vault/builtin/audit/file"
+	"github.com/quid/vault/builtin/logical/transit"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 )
 
 func TestTransit_Issue_2958(t *testing.T) {

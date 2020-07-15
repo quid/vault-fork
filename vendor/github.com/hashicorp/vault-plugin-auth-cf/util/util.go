@@ -8,7 +8,7 @@ import (
 
 	"github.com/cloudfoundry-community/go-cfclient"
 	"github.com/hashicorp/go-cleanhttp"
-	"github.com/hashicorp/vault-plugin-auth-cf/models"
+	"github.com/quid/vault-plugin-auth-cf/models"
 )
 
 const BashTimeFormat = "Mon Jan 2 15:04:05 MST 2006"

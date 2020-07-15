@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/sdk/helper/password"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/sdk/helper/password"
 )
 
 type CLIHandler struct {

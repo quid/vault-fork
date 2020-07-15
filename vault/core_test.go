@@ -11,13 +11,13 @@ import (
 	"github.com/hashicorp/errwrap"
 	log "github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/audit"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/sdk/physical/inmem"
+	"github.com/quid/vault/audit"
+	"github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/helper/logging"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/sdk/physical"
+	"github.com/quid/vault/sdk/physical/inmem"
 )
 
 var (

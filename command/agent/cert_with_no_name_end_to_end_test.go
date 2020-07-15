@@ -10,18 +10,18 @@ import (
 
 	hclog "github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/vault/api"
-	vaultcert "github.com/hashicorp/vault/builtin/credential/cert"
-	"github.com/hashicorp/vault/command/agent/auth"
-	agentcert "github.com/hashicorp/vault/command/agent/auth/cert"
-	"github.com/hashicorp/vault/command/agent/sink"
-	"github.com/hashicorp/vault/command/agent/sink/file"
-	"github.com/hashicorp/vault/helper/dhutil"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	vaultcert "github.com/quid/vault/builtin/credential/cert"
+	"github.com/quid/vault/command/agent/auth"
+	agentcert "github.com/quid/vault/command/agent/auth/cert"
+	"github.com/quid/vault/command/agent/sink"
+	"github.com/quid/vault/command/agent/sink/file"
+	"github.com/quid/vault/helper/dhutil"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/sdk/helper/jsonutil"
+	"github.com/quid/vault/sdk/helper/logging"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 )
 
 func TestCertWithNoNAmeEndToEnd(t *testing.T) {

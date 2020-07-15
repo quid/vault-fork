@@ -10,7 +10,7 @@ import (
 
 	hclog "github.com/hashicorp/go-hclog"
 	plugin "github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/vault/sdk/helper/logging"
+	"github.com/quid/vault/sdk/helper/logging"
 )
 
 func TestLogger_levels(t *testing.T) {

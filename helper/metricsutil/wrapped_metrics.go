@@ -6,7 +6,7 @@ import (
 	"time"
 
 	metrics "github.com/armon/go-metrics"
-	"github.com/hashicorp/vault/helper/namespace"
+	"github.com/quid/vault/helper/namespace"
 )
 
 // ClusterMetricSink serves as a shim around go-metrics

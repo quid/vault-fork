@@ -9,14 +9,14 @@ import (
 	"time"
 
 	"github.com/go-test/deep"
-	"github.com/hashicorp/vault/api"
-	credLdap "github.com/hashicorp/vault/builtin/credential/ldap"
-	credUserpass "github.com/hashicorp/vault/builtin/credential/userpass"
-	"github.com/hashicorp/vault/helper/testhelpers/ldap"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	credLdap "github.com/quid/vault/builtin/credential/ldap"
+	credUserpass "github.com/quid/vault/builtin/credential/userpass"
+	"github.com/quid/vault/helper/testhelpers/ldap"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/sdk/helper/jsonutil"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 )
 
 func TestTokenStore_CreateOrphanResponse(t *testing.T) {

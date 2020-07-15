@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/helper/testhelpers/docker"
-	"github.com/hashicorp/vault/sdk/helper/ldaputil"
+	"github.com/quid/vault/helper/testhelpers/docker"
+	"github.com/quid/vault/sdk/helper/ldaputil"
 	"github.com/ory/dockertest"
 )
 

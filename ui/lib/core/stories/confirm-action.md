@@ -27,7 +27,7 @@
 
 **See**
 
-- [Uses of ConfirmAction](https://github.com/hashicorp/vault/search?l=Handlebars&q=ConfirmAction)
-- [ConfirmAction Source Code](https://github.com/hashicorp/vault/blob/master/ui/lib/core/addon/components/confirm-action.js)
+- [Uses of ConfirmAction](https://github.com/quid/vault/search?l=Handlebars&q=ConfirmAction)
+- [ConfirmAction Source Code](https://github.com/quid/vault/blob/master/ui/lib/core/addon/components/confirm-action.js)
 
 ---

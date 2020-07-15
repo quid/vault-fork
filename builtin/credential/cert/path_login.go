@@ -12,12 +12,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/certutil"
-	"github.com/hashicorp/vault/sdk/helper/policyutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/helper/certutil"
+	"github.com/quid/vault/sdk/helper/policyutil"
+	"github.com/quid/vault/sdk/logical"
 
-	"github.com/hashicorp/vault/sdk/helper/cidrutil"
+	"github.com/quid/vault/sdk/helper/cidrutil"
 	glob "github.com/ryanuber/go-glob"
 )
 

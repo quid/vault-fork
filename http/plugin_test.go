@@ -9,16 +9,16 @@ import (
 	"testing"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	bplugin "github.com/hashicorp/vault/builtin/plugin"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/pluginutil"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/sdk/physical/inmem"
-	"github.com/hashicorp/vault/sdk/plugin"
-	"github.com/hashicorp/vault/sdk/plugin/mock"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	bplugin "github.com/quid/vault/builtin/plugin"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/helper/pluginutil"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/sdk/physical"
+	"github.com/quid/vault/sdk/physical/inmem"
+	"github.com/quid/vault/sdk/plugin"
+	"github.com/quid/vault/sdk/plugin/mock"
+	"github.com/quid/vault/vault"
 )
 
 func getPluginClusterAndCore(t testing.TB, logger log.Logger) (*vault.TestCluster, *vault.TestClusterCore) {

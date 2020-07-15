@@ -9,8 +9,8 @@ import (
 
 	hclog "github.com/hashicorp/go-hclog"
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/command/agent/sink"
-	"github.com/hashicorp/vault/sdk/helper/logging"
+	"github.com/quid/vault/command/agent/sink"
+	"github.com/quid/vault/sdk/helper/logging"
 )
 
 const (

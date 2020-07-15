@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials/providers"
-	"github.com/hashicorp/vault-plugin-auth-alicloud/tools"
-	"github.com/hashicorp/vault/api"
+	"github.com/quid/vault-plugin-auth-alicloud/tools"
+	"github.com/quid/vault/api"
 )
 
 type CLIHandler struct{}

@@ -1,8 +1,8 @@
 package command
 
 import (
-	"github.com/hashicorp/vault/command/server"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/command/server"
+	"github.com/quid/vault/vault"
 )
 
 var (

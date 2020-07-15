@@ -6,7 +6,7 @@ This plugin is currently being incorporated into Vault and documentation is in t
 
 ## Details
 
-This is a standalone backend plugin for use with [Hashicorp Vault](https://www.github.com/hashicorp/vault).
+This is a standalone backend plugin for use with [Hashicorp Vault](https://www.github.com/quid/vault).
 This plugin allows for users to authenticate with Vault via Kerberos/SPNEGO.
 
 ## Usage

@@ -12,8 +12,8 @@ import (
 	"github.com/Azure/go-autorest/autorest/azure"
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/quid/vault/sdk/helper/logging"
+	"github.com/quid/vault/sdk/physical"
 )
 
 func environmentForCleanupClient(name string, armUrl string) (azure.Environment, error) {

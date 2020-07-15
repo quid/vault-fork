@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/logical"
 )
 
 func (b *backend) client(ctx context.Context, s logical.Storage) (*api.Client, error, error) {

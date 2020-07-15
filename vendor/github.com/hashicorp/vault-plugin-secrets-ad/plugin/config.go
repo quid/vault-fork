@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/vault-plugin-secrets-ad/plugin/client"
+	"github.com/quid/vault-plugin-secrets-ad/plugin/client"
 )
 
 type configuration struct {

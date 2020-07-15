@@ -9,14 +9,14 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"github.com/hashicorp/errwrap"
 	memdb "github.com/hashicorp/go-memdb"
-	"github.com/hashicorp/vault/helper/identity"
-	"github.com/hashicorp/vault/helper/identity/mfa"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/helper/storagepacker"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/helper/identity"
+	"github.com/quid/vault/helper/identity/mfa"
+	"github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/helper/storagepacker"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/helper/strutil"
+	"github.com/quid/vault/sdk/logical"
 )
 
 func entityPathFields() map[string]*framework.FieldSchema {

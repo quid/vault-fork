@@ -4,12 +4,12 @@ import (
 	"testing"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 
-	credAppId "github.com/hashicorp/vault/builtin/credential/app-id"
+	credAppId "github.com/quid/vault/builtin/credential/app-id"
 )
 
 func TestPathMap_Upgrade_API(t *testing.T) {

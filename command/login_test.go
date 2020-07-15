@@ -6,11 +6,11 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/hashicorp/vault/api"
-	credToken "github.com/hashicorp/vault/builtin/credential/token"
-	credUserpass "github.com/hashicorp/vault/builtin/credential/userpass"
-	"github.com/hashicorp/vault/command/token"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	credToken "github.com/quid/vault/builtin/credential/token"
+	credUserpass "github.com/quid/vault/builtin/credential/userpass"
+	"github.com/quid/vault/command/token"
+	"github.com/quid/vault/vault"
 )
 
 func testLoginCommand(tb testing.TB) (*cli.MockUi, *LoginCommand) {

@@ -11,7 +11,7 @@ import (
 
 	consulapi "github.com/hashicorp/consul/api"
 	rootcerts "github.com/hashicorp/go-rootcerts"
-	vaultapi "github.com/hashicorp/vault/api"
+	vaultapi "github.com/quid/vault/api"
 )
 
 // ClientSet is a collection of clients that dependencies use to communicate

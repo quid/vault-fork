@@ -5,7 +5,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/logical"
 )
 
 // BarrierView wraps a SecurityBarrier and ensures all access is automatically

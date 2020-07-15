@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	saltpkg "github.com/hashicorp/vault/sdk/helper/salt"
-	"github.com/hashicorp/vault/sdk/logical"
+	saltpkg "github.com/quid/vault/sdk/helper/salt"
+	"github.com/quid/vault/sdk/logical"
 )
 
 func TestPathMap(t *testing.T) {

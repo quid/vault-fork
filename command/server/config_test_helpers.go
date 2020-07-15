@@ -9,7 +9,7 @@ import (
 	"github.com/go-test/deep"
 	"github.com/hashicorp/hcl"
 	"github.com/hashicorp/hcl/hcl/ast"
-	"github.com/hashicorp/vault/internalshared/configutil"
+	"github.com/quid/vault/internalshared/configutil"
 )
 
 func testConfigRaftRetryJoin(t *testing.T) {

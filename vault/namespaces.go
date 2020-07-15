@@ -3,7 +3,7 @@ package vault
 import (
 	"context"
 
-	"github.com/hashicorp/vault/helper/namespace"
+	"github.com/quid/vault/helper/namespace"
 )
 
 var (

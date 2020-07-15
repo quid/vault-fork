@@ -11,7 +11,7 @@ import (
 	"encoding/json"
 	"encoding/pem"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/quid/vault/api"
 )
 
 var (

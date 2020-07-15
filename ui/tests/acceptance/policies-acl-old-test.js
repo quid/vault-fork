@@ -48,7 +48,7 @@ module('Acceptance | policies (old)', function(hooks) {
       .doesNotExist('deleted policy is not shown in the list');
   });
 
-  // https://github.com/hashicorp/vault/issues/4395
+  // https://github.com/quid/vault/issues/4395
   test('it properly fetches policies when the name ends in a ,', async function(assert) {
     const now = new Date().getTime();
     const policyString = 'path "*" { capabilities = ["update"]}';

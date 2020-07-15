@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/armon/go-metrics"
-	"github.com/hashicorp/vault/helper/metricsutil"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/helper/metricsutil"
+	"github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/sdk/logical"
 )
 
 func (c *Core) metricsLoop(stopCh chan struct{}) {

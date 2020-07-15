@@ -16,7 +16,7 @@
 
 **See**
 
-- [Uses of HttpRequestsBarChart](https://github.com/hashicorp/vault/search?l=Handlebars&q=HttpRequestsBarChart+OR+http-requests-bar-chart)
-- [HttpRequestsBarChart Source Code](https://github.com/hashicorp/vault/blob/master/ui/app/components/http-requests-bar-chart.js)
+- [Uses of HttpRequestsBarChart](https://github.com/quid/vault/search?l=Handlebars&q=HttpRequestsBarChart+OR+http-requests-bar-chart)
+- [HttpRequestsBarChart Source Code](https://github.com/quid/vault/blob/master/ui/app/components/http-requests-bar-chart.js)
 
 ---

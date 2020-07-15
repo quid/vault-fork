@@ -18,7 +18,7 @@
 
 **See**
 
-- [Uses of Icon](https://github.com/hashicorp/vault/search?l=Handlebars&q=Icon+OR+icon)
-- [Icon Source Code](https://github.com/hashicorp/vault/blob/master/ui/lib/core/addon/components/icon.js)
+- [Uses of Icon](https://github.com/quid/vault/search?l=Handlebars&q=Icon+OR+icon)
+- [Icon Source Code](https://github.com/quid/vault/blob/master/ui/lib/core/addon/components/icon.js)
 
 ---

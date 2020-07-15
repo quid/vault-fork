@@ -7,7 +7,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/hashicorp/vault/sdk/helper/certutil"
+	"github.com/quid/vault/sdk/helper/certutil"
 )
 
 const (

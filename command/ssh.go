@@ -12,8 +12,8 @@ import (
 	"syscall"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/builtin/logical/ssh"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/builtin/logical/ssh"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"

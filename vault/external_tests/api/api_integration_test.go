@@ -5,17 +5,17 @@ import (
 	"testing"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/audit"
-	auditFile "github.com/hashicorp/vault/builtin/audit/file"
-	credUserpass "github.com/hashicorp/vault/builtin/credential/userpass"
-	"github.com/hashicorp/vault/builtin/logical/database"
-	"github.com/hashicorp/vault/builtin/logical/pki"
-	"github.com/hashicorp/vault/builtin/logical/transit"
-	"github.com/hashicorp/vault/helper/builtinplugins"
-	"github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/audit"
+	auditFile "github.com/quid/vault/builtin/audit/file"
+	credUserpass "github.com/quid/vault/builtin/credential/userpass"
+	"github.com/quid/vault/builtin/logical/database"
+	"github.com/quid/vault/builtin/logical/pki"
+	"github.com/quid/vault/builtin/logical/transit"
+	"github.com/quid/vault/helper/builtinplugins"
+	"github.com/quid/vault/http"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 )
 
 // testVaultServer creates a test vault cluster and returns a configured API

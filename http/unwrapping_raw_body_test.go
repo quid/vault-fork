@@ -3,10 +3,10 @@ package http
 import (
 	"testing"
 
-	kv "github.com/hashicorp/vault-plugin-secrets-kv"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	kv "github.com/quid/vault-plugin-secrets-kv"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 )
 
 func TestUnwrapping_Raw_Body(t *testing.T) {

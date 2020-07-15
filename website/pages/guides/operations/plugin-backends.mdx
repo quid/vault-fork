@@ -37,14 +37,14 @@ will need to unseal it again.
 
 Build the custom binary, and move it inside the `plugin_directory` path
 configured above. This guide uses `mock-plugin` that comes from Vault's
-[`logical/plugin/mock`](https://github.com/hashicorp/vault/tree/master/logical/plugin/mock/mock-plugin) package.
+[`logical/plugin/mock`](https://github.com/quid/vault/tree/master/logical/plugin/mock/mock-plugin) package.
 
 Download the source (you would probably use your own plugin):
 
 ```shell-session
-$ go get -f -u -d github.com/hashicorp/vault
+$ go get -f -u -d github.com/quid/vault
 # ...
-$ cd $GOPATH/src/github.com/hashicorp/vault/sdk/plugin/mock/mock-plugin
+$ cd $GOPATH/src/github.com/quid/vault/sdk/plugin/mock/mock-plugin
 ```
 
 Compile the plugin:
@@ -62,7 +62,7 @@ $ mv my-mock-plugin /etc/vault/vault_plugins
 Alternatively, if you wanted a custom version of a plugin built into Vault, such as AppRole:
 
 ```shell-session
-$ cd $GOPATH/src/github.com/hashicorp/vault/builtin/credential/approle/cmd/approle
+$ cd $GOPATH/src/github.com/quid/vault/builtin/credential/approle/cmd/approle
 $ go build
 $ mv approle /etc/vault/vault_plugins
 ```

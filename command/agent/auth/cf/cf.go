@@ -9,10 +9,10 @@ import (
 	"os"
 	"time"
 
-	cf "github.com/hashicorp/vault-plugin-auth-cf"
-	"github.com/hashicorp/vault-plugin-auth-cf/signatures"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/command/agent/auth"
+	cf "github.com/quid/vault-plugin-auth-cf"
+	"github.com/quid/vault-plugin-auth-cf/signatures"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/command/agent/auth"
 )
 
 type cfMethod struct {

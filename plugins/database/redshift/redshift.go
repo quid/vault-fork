@@ -10,13 +10,13 @@ import (
 
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
-	"github.com/hashicorp/vault/sdk/database/helper/connutil"
-	"github.com/hashicorp/vault/sdk/database/helper/credsutil"
-	"github.com/hashicorp/vault/sdk/database/helper/dbutil"
-	"github.com/hashicorp/vault/sdk/helper/dbtxn"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/sdk/database/dbplugin"
+	"github.com/quid/vault/sdk/database/helper/connutil"
+	"github.com/quid/vault/sdk/database/helper/credsutil"
+	"github.com/quid/vault/sdk/database/helper/dbutil"
+	"github.com/quid/vault/sdk/helper/dbtxn"
+	"github.com/quid/vault/sdk/helper/strutil"
 	"github.com/lib/pq"
 )
 

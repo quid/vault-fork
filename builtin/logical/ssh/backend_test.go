@@ -17,11 +17,11 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/helper/testhelpers/docker"
-	logicaltest "github.com/hashicorp/vault/helper/testhelpers/logical"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/helper/testhelpers/docker"
+	logicaltest "github.com/quid/vault/helper/testhelpers/logical"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 	"github.com/mitchellh/mapstructure"
 	"github.com/ory/dockertest"
 )

@@ -3,7 +3,7 @@ package client
 import (
 	"time"
 
-	"github.com/hashicorp/vault/sdk/helper/ldaputil"
+	"github.com/quid/vault/sdk/helper/ldaputil"
 )
 
 type ADConf struct {

@@ -16,7 +16,7 @@ import (
 	"github.com/armon/go-metrics"
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/quid/vault/sdk/physical"
 	"github.com/oracle/oci-go-sdk/objectstorage"
 )
 

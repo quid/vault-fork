@@ -16,10 +16,10 @@ import (
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/api"
-	awsauth "github.com/hashicorp/vault/builtin/credential/aws"
-	"github.com/hashicorp/vault/command/agent/auth"
-	"github.com/hashicorp/vault/sdk/helper/awsutil"
+	"github.com/quid/vault/api"
+	awsauth "github.com/quid/vault/builtin/credential/aws"
+	"github.com/quid/vault/command/agent/auth"
+	"github.com/quid/vault/sdk/helper/awsutil"
 )
 
 const (

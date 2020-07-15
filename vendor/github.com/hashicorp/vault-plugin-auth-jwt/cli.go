@@ -15,8 +15,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/sdk/helper/base62"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/sdk/helper/base62"
 )
 
 const defaultMount = "oidc"

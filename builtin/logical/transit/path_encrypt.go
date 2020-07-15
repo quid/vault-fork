@@ -6,10 +6,10 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/errutil"
-	"github.com/hashicorp/vault/sdk/helper/keysutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/helper/errutil"
+	"github.com/quid/vault/sdk/helper/keysutil"
+	"github.com/quid/vault/sdk/logical"
 	"github.com/mitchellh/mapstructure"
 )
 
@@ -129,7 +129,7 @@ to the min_encryption_version configured on the key.`,
 
 // decodeBatchRequestItems is a fast path alternative to mapstructure.Decode to decode []BatchRequestItem.
 // It aims to behave as closely possible to the original mapstructure.Decode and will return the same errors.
-// https://github.com/hashicorp/vault/pull/8775/files#r437709722
+// https://github.com/quid/vault/pull/8775/files#r437709722
 func decodeBatchRequestItems(src interface{}, dst *[]BatchRequestItem) error {
 	if src == nil || dst == nil {
 		return nil

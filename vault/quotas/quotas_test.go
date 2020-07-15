@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-test/deep"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/helper/metricsutil"
-	"github.com/hashicorp/vault/sdk/helper/logging"
+	"github.com/quid/vault/helper/metricsutil"
+	"github.com/quid/vault/sdk/helper/logging"
 )
 
 func TestQuotas_Precedence(t *testing.T) {

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/vault/helper/mfa"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/cidrutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/helper/mfa"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/helper/cidrutil"
+	"github.com/quid/vault/sdk/logical"
 	"github.com/okta/okta-sdk-golang/okta"
 )
 

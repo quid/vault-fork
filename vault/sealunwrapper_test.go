@@ -11,8 +11,8 @@ import (
 	proto "github.com/golang/protobuf/proto"
 	log "github.com/hashicorp/go-hclog"
 	wrapping "github.com/hashicorp/go-kms-wrapping"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/sdk/physical/inmem"
+	"github.com/quid/vault/sdk/physical"
+	"github.com/quid/vault/sdk/physical/inmem"
 )
 
 func TestSealUnwrapper(t *testing.T) {

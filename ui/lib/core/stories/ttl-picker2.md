@@ -31,7 +31,7 @@ TtlPicker2 components are used to enable and select time to live values. Use thi
 
 **See**
 
-- [Uses of TtlPicker2](https://github.com/hashicorp/vault/search?l=Handlebars&q=TtlPicker2+OR+ttl-picker2)
-- [TtlPicker2 Source Code](https://github.com/hashicorp/vault/blob/master/ui/lib/core/addon/components/ttl-picker2.js)
+- [Uses of TtlPicker2](https://github.com/quid/vault/search?l=Handlebars&q=TtlPicker2+OR+ttl-picker2)
+- [TtlPicker2 Source Code](https://github.com/quid/vault/blob/master/ui/lib/core/addon/components/ttl-picker2.js)
 
 ---

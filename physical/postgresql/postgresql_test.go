@@ -7,9 +7,9 @@ import (
 	"time"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/helper/testhelpers/postgresql"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/quid/vault/helper/testhelpers/postgresql"
+	"github.com/quid/vault/sdk/helper/logging"
+	"github.com/quid/vault/sdk/physical"
 
 	_ "github.com/lib/pq"
 )

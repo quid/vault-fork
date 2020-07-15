@@ -3,9 +3,9 @@ package pki
 import (
 	"time"
 
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/certutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/helper/certutil"
+	"github.com/quid/vault/sdk/logical"
 )
 
 func (b *backend) getGenerationParams(

@@ -1,7 +1,7 @@
 package command
 
 import (
-	"github.com/hashicorp/vault/command/config"
+	"github.com/quid/vault/command/config"
 )
 
 const (

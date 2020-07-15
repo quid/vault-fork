@@ -3,12 +3,12 @@ package identity
 import (
 	"testing"
 
-	"github.com/hashicorp/vault/api"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 
-	credLdap "github.com/hashicorp/vault/builtin/credential/ldap"
+	credLdap "github.com/quid/vault/builtin/credential/ldap"
 )
 
 func TestIdentityStore_GroupAliasLocalMount(t *testing.T) {

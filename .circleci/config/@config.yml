@@ -32,21 +32,21 @@ executors:
       GO_VERSION: 1.13.8  # Pin Go to patch version (ex: 1.2.3)
       GOTESTSUM_VERSION: 0.3.3  # Pin gotestsum to patch version (ex: 1.2.3)
       GO_TAGS: ""
-    working_directory: /go/src/github.com/hashicorp/vault
+    working_directory: /go/src/github.com/quid/vault
   node:
     docker:
       - image: *NODE_IMAGE
         environment:
             JOBS: 2
     shell: /usr/bin/env bash -euo pipefail -c
-    working_directory: /go/src/github.com/hashicorp/vault
+    working_directory: /go/src/github.com/quid/vault
   python:
     docker:
      - image: python:3-alpine
     shell: /usr/bin/env bash -euo pipefail -c
-    working_directory: /go/src/github.com/hashicorp/vault
+    working_directory: /go/src/github.com/quid/vault
   alpine:
     docker:
       - image: alpine:3.10.2
     shell: /bin/sh
-    working_directory: /go/src/github.com/hashicorp/vault
+    working_directory: /go/src/github.com/quid/vault

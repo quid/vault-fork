@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hashicorp/vault/helper/testhelpers/docker"
+	"github.com/quid/vault/helper/testhelpers/docker"
 	"github.com/ory/dockertest"
 )
 

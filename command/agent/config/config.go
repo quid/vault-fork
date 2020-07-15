@@ -13,9 +13,9 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/hashicorp/hcl"
 	"github.com/hashicorp/hcl/hcl/ast"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/internalshared/configutil"
-	"github.com/hashicorp/vault/sdk/helper/parseutil"
+	"github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/internalshared/configutil"
+	"github.com/quid/vault/sdk/helper/parseutil"
 	"github.com/mitchellh/mapstructure"
 )
 

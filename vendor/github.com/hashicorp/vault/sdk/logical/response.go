@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"sync/atomic"
 
-	"github.com/hashicorp/vault/sdk/helper/wrapping"
+	"github.com/quid/vault/sdk/helper/wrapping"
 )
 
 const (

@@ -27,7 +27,7 @@ import (
 	"syscall"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/serviceregistration/kubernetes/client"
+	"github.com/quid/vault/serviceregistration/kubernetes/client"
 )
 
 var callToMake string

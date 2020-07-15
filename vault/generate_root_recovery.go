@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/helper/base62"
+	"github.com/quid/vault/sdk/helper/base62"
 	"go.uber.org/atomic"
 )
 

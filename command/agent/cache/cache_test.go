@@ -14,17 +14,17 @@ import (
 
 	"github.com/go-test/deep"
 	hclog "github.com/hashicorp/go-hclog"
-	kv "github.com/hashicorp/vault-plugin-secrets-kv"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/builtin/credential/userpass"
-	"github.com/hashicorp/vault/command/agent/cache/cachememdb"
-	"github.com/hashicorp/vault/command/agent/sink/mock"
-	"github.com/hashicorp/vault/helper/namespace"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	kv "github.com/quid/vault-plugin-secrets-kv"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/builtin/credential/userpass"
+	"github.com/quid/vault/command/agent/cache/cachememdb"
+	"github.com/quid/vault/command/agent/sink/mock"
+	"github.com/quid/vault/helper/namespace"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/helper/logging"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/vault"
 )
 
 const policyAdmin = `

@@ -8,11 +8,11 @@ import (
 	"time"
 
 	stdmysql "github.com/go-sql-driver/mysql"
-	mysqlhelper "github.com/hashicorp/vault/helper/testhelpers/mysql"
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
-	"github.com/hashicorp/vault/sdk/database/helper/credsutil"
-	"github.com/hashicorp/vault/sdk/database/helper/dbutil"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
+	mysqlhelper "github.com/quid/vault/helper/testhelpers/mysql"
+	"github.com/quid/vault/sdk/database/dbplugin"
+	"github.com/quid/vault/sdk/database/helper/credsutil"
+	"github.com/quid/vault/sdk/database/helper/dbutil"
+	"github.com/quid/vault/sdk/helper/strutil"
 )
 
 var _ dbplugin.Database = (*MySQL)(nil)

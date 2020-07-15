@@ -5,13 +5,13 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/helper/testhelpers"
-	"github.com/hashicorp/vault/helper/testhelpers/teststorage"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/physical/raft"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/helper/testhelpers"
+	"github.com/quid/vault/helper/testhelpers/teststorage"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/physical/raft"
+	"github.com/quid/vault/sdk/helper/logging"
+	"github.com/quid/vault/vault"
 )
 
 func TestRaft_HA_NewCluster(t *testing.T) {

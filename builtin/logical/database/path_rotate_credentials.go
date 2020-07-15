@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
+	"github.com/quid/vault/sdk/database/dbplugin"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/queue"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/sdk/queue"
 )
 
 func pathRotateCredentials(b *databaseBackend) []*framework.Path {

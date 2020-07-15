@@ -5,10 +5,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/locksutil"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/queue"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/helper/locksutil"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/sdk/queue"
 )
 
 func Factory(ctx context.Context, conf *logical.BackendConfig) (logical.Backend, error) {

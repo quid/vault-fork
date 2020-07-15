@@ -9,10 +9,10 @@ import (
 
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/helper/pgpkeys"
-	"github.com/hashicorp/vault/helper/xor"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/shamir"
+	"github.com/quid/vault/helper/pgpkeys"
+	"github.com/quid/vault/helper/xor"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/shamir"
 )
 
 const coreDROperationTokenPath = "core/dr-operation-token"

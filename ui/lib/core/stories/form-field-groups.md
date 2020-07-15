@@ -28,7 +28,7 @@
 
 **See**
 
-- [Uses of FormFieldGroups](https://github.com/hashicorp/vault/search?l=Handlebars&q=FormFieldGroups)
-- [FormFieldGroups Source Code](https://github.com/hashicorp/vault/blob/master/ui/app/components/form-field-groups.js)
+- [Uses of FormFieldGroups](https://github.com/quid/vault/search?l=Handlebars&q=FormFieldGroups)
+- [FormFieldGroups Source Code](https://github.com/quid/vault/blob/master/ui/app/components/form-field-groups.js)
 
 ---

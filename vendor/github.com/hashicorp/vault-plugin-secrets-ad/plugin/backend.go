@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hashicorp/vault-plugin-secrets-ad/plugin/client"
-	"github.com/hashicorp/vault-plugin-secrets-ad/plugin/util"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/locksutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault-plugin-secrets-ad/plugin/client"
+	"github.com/quid/vault-plugin-secrets-ad/plugin/util"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/helper/locksutil"
+	"github.com/quid/vault/sdk/logical"
 	"github.com/patrickmn/go-cache"
 )
 

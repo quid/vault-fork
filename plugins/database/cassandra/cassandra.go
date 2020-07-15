@@ -7,11 +7,11 @@ import (
 
 	"github.com/gocql/gocql"
 	multierror "github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
-	"github.com/hashicorp/vault/sdk/database/helper/credsutil"
-	"github.com/hashicorp/vault/sdk/database/helper/dbutil"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/sdk/database/dbplugin"
+	"github.com/quid/vault/sdk/database/helper/credsutil"
+	"github.com/quid/vault/sdk/database/helper/dbutil"
+	"github.com/quid/vault/sdk/helper/strutil"
 )
 
 const (

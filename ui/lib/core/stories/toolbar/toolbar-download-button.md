@@ -16,7 +16,7 @@ It should only be used inside of `Toolbar`.
 
 **See**
 
-- [Uses of ToolbarDownloadButton](https://github.com/hashicorp/vault/search?l=Handlebars&q=ToolbarDownloadButton+OR+toolbar-download-button)
-- [ToolbarDownloadButton Source Code](https://github.com/hashicorp/vault/blob/master/ui/app/components/toolbar-download-button.js)
+- [Uses of ToolbarDownloadButton](https://github.com/quid/vault/search?l=Handlebars&q=ToolbarDownloadButton+OR+toolbar-download-button)
+- [ToolbarDownloadButton Source Code](https://github.com/quid/vault/blob/master/ui/app/components/toolbar-download-button.js)
 
 ---

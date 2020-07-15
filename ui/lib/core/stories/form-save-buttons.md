@@ -22,7 +22,7 @@
 
 **See**
 
-- [Uses of FormSaveButtons](https://github.com/hashicorp/vault/search?l=Handlebars&q=FormSaveButtons+OR+form-save-buttons)
-- [FormSaveButtons Source Code](https://github.com/hashicorp/vault/blob/master/ui/lib/core/addon/components/form-save-buttons.js)
+- [Uses of FormSaveButtons](https://github.com/quid/vault/search?l=Handlebars&q=FormSaveButtons+OR+form-save-buttons)
+- [FormSaveButtons Source Code](https://github.com/quid/vault/blob/master/ui/lib/core/addon/components/form-save-buttons.js)
 
 ---

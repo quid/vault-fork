@@ -26,7 +26,7 @@
 
 **See**
 
-- [Uses of ListView](https://github.com/hashicorp/vault/search?l=Handlebars&q=ListView+OR+list-view)
-- [ListView Source Code](https://github.com/hashicorp/vault/blob/master/ui/lib/core/addon/components/list-view.js)
+- [Uses of ListView](https://github.com/quid/vault/search?l=Handlebars&q=ListView+OR+list-view)
+- [ListView Source Code](https://github.com/quid/vault/blob/master/ui/lib/core/addon/components/list-view.js)
 
 ---

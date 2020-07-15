@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
+	"github.com/quid/vault/sdk/database/dbplugin"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

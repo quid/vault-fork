@@ -20,7 +20,7 @@ export default ApplicationSerializer.extend({
 
         // if there is no path, it's a "top level" secret, so add
         // a unicode space for the id
-        // https://github.com/hashicorp/vault/issues/3348
+        // https://github.com/quid/vault/issues/3348
         if (!fullSecretPath) {
           fullSecretPath = '\u0020';
         }

@@ -7,9 +7,9 @@ import (
 	"regexp"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/base62"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/helper/base62"
+	"github.com/quid/vault/sdk/logical"
 )
 
 var displayNameRegex = regexp.MustCompile("[^a-zA-Z0-9+=,.@_-]")

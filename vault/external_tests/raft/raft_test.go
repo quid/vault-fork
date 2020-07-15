@@ -14,13 +14,13 @@ import (
 
 	"github.com/hashicorp/go-cleanhttp"
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/helper/testhelpers"
-	"github.com/hashicorp/vault/helper/testhelpers/teststorage"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/physical/raft"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/helper/testhelpers"
+	"github.com/quid/vault/helper/testhelpers/teststorage"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/physical/raft"
+	"github.com/quid/vault/vault"
 	"golang.org/x/net/http2"
 )
 

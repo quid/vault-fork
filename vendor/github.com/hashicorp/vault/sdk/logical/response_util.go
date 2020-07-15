@@ -8,7 +8,7 @@ import (
 
 	"github.com/hashicorp/errwrap"
 	multierror "github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/helper/consts"
 )
 
 // RespondErrorCommon pulls most of the functionality from http's

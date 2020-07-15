@@ -8,8 +8,8 @@ import (
 
 	log "github.com/hashicorp/go-hclog"
 	plugin "github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/plugin/pb"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/sdk/plugin/pb"
 )
 
 var _ plugin.Plugin = (*GRPCBackendPlugin)(nil)

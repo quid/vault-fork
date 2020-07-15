@@ -8,7 +8,7 @@ import (
 	"strconv"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
+	"github.com/quid/vault/api"
 )
 
 const (

@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/quid/vault/sdk/physical"
 
 	radix "github.com/armon/go-radix"
 )

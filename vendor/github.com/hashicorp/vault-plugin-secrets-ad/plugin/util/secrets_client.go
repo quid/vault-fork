@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault-plugin-secrets-ad/plugin/client"
+	"github.com/quid/vault-plugin-secrets-ad/plugin/client"
 )
 
 func NewSecretsClient(logger hclog.Logger) *SecretsClient {

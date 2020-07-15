@@ -15,8 +15,8 @@ import (
 	"github.com/hashicorp/errwrap"
 	log "github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
-	"github.com/hashicorp/vault/sdk/physical"
+	"github.com/quid/vault/sdk/helper/strutil"
+	"github.com/quid/vault/sdk/physical"
 
 	// CockroachDB uses the Postgres SQL driver
 	_ "github.com/lib/pq"

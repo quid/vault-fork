@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/plugins/database/mongodb"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/plugins/database/mongodb"
 )
 
 func main() {

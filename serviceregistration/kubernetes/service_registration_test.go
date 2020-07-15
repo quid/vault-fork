@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-hclog"
-	sr "github.com/hashicorp/vault/serviceregistration"
-	"github.com/hashicorp/vault/serviceregistration/kubernetes/client"
-	kubetest "github.com/hashicorp/vault/serviceregistration/kubernetes/testing"
+	sr "github.com/quid/vault/serviceregistration"
+	"github.com/quid/vault/serviceregistration/kubernetes/client"
+	kubetest "github.com/quid/vault/serviceregistration/kubernetes/testing"
 )
 
 var testVersion = "version1"

@@ -9,7 +9,7 @@ package identity
 import (
 	proto "github.com/golang/protobuf/proto"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
-	mfa "github.com/hashicorp/vault/helper/identity/mfa"
+	mfa "github.com/quid/vault/helper/identity/mfa"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

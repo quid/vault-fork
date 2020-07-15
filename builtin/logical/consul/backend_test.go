@@ -10,9 +10,9 @@ import (
 	"time"
 
 	consulapi "github.com/hashicorp/consul/api"
-	"github.com/hashicorp/vault/helper/testhelpers/consul"
-	logicaltest "github.com/hashicorp/vault/helper/testhelpers/logical"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/helper/testhelpers/consul"
+	logicaltest "github.com/quid/vault/helper/testhelpers/logical"
+	"github.com/quid/vault/sdk/logical"
 	"github.com/mitchellh/mapstructure"
 )
 

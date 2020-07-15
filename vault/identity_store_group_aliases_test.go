@@ -4,11 +4,11 @@ import (
 	"strings"
 	"testing"
 
-	credLdap "github.com/hashicorp/vault/builtin/credential/ldap"
-	credUserpass "github.com/hashicorp/vault/builtin/credential/userpass"
-	"github.com/hashicorp/vault/helper/identity"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/sdk/logical"
+	credLdap "github.com/quid/vault/builtin/credential/ldap"
+	credUserpass "github.com/quid/vault/builtin/credential/userpass"
+	"github.com/quid/vault/helper/identity"
+	"github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/sdk/logical"
 	"github.com/kr/pretty"
 )
 

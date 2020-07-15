@@ -3,7 +3,7 @@ package http
 import (
 	"testing"
 
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/vault"
 )
 
 func TestHelp(t *testing.T) {

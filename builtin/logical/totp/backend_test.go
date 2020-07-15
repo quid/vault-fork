@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/helper/namespace"
-	logicaltest "github.com/hashicorp/vault/helper/testhelpers/logical"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/helper/namespace"
+	logicaltest "github.com/quid/vault/helper/testhelpers/logical"
+	"github.com/quid/vault/sdk/logical"
 	"github.com/mitchellh/mapstructure"
 	otplib "github.com/pquerna/otp"
 	totplib "github.com/pquerna/otp/totp"

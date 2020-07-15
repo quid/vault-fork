@@ -25,26 +25,26 @@ import (
 	aeadwrapper "github.com/hashicorp/go-kms-wrapping/wrappers/aead"
 	"github.com/hashicorp/go-multierror"
 	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/audit"
-	"github.com/hashicorp/vault/command/server"
-	"github.com/hashicorp/vault/helper/metricsutil"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/internalshared/reloadutil"
-	"github.com/hashicorp/vault/sdk/helper/certutil"
-	"github.com/hashicorp/vault/sdk/helper/consts"
-	"github.com/hashicorp/vault/sdk/helper/jsonutil"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/sdk/helper/mlock"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
-	"github.com/hashicorp/vault/sdk/helper/tlsutil"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/physical"
-	sr "github.com/hashicorp/vault/serviceregistration"
-	"github.com/hashicorp/vault/shamir"
-	"github.com/hashicorp/vault/vault/cluster"
-	"github.com/hashicorp/vault/vault/quotas"
-	vaultseal "github.com/hashicorp/vault/vault/seal"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/audit"
+	"github.com/quid/vault/command/server"
+	"github.com/quid/vault/helper/metricsutil"
+	"github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/internalshared/reloadutil"
+	"github.com/quid/vault/sdk/helper/certutil"
+	"github.com/quid/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/helper/jsonutil"
+	"github.com/quid/vault/sdk/helper/logging"
+	"github.com/quid/vault/sdk/helper/mlock"
+	"github.com/quid/vault/sdk/helper/strutil"
+	"github.com/quid/vault/sdk/helper/tlsutil"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/sdk/physical"
+	sr "github.com/quid/vault/serviceregistration"
+	"github.com/quid/vault/shamir"
+	"github.com/quid/vault/vault/cluster"
+	"github.com/quid/vault/vault/quotas"
+	vaultseal "github.com/quid/vault/vault/seal"
 	"github.com/patrickmn/go-cache"
 	"google.golang.org/grpc"
 )
@@ -520,7 +520,7 @@ type Core struct {
 	// PR1103disabled is used to test upgrade workflows: when set to true,
 	// the correct behaviour for namespaced cubbyholes is disabled, so we
 	// can test an upgrade to a version that includes the fixes from
-	// https://github.com/hashicorp/vault-enterprise/pull/1103
+	// https://github.com/quid/vault-enterprise/pull/1103
 	PR1103disabled bool
 
 	quotaManager *quotas.Manager

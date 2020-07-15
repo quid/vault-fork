@@ -9,9 +9,9 @@ import (
 	"time"
 
 	nomadapi "github.com/hashicorp/nomad/api"
-	"github.com/hashicorp/vault/helper/testhelpers"
-	"github.com/hashicorp/vault/helper/testhelpers/docker"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/helper/testhelpers"
+	"github.com/quid/vault/helper/testhelpers/docker"
+	"github.com/quid/vault/sdk/logical"
 	"github.com/mitchellh/mapstructure"
 	"github.com/ory/dockertest"
 )

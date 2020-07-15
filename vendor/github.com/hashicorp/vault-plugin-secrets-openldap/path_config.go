@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/vault-plugin-secrets-openldap/client"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/helper/ldaputil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault-plugin-secrets-openldap/client"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/helper/ldaputil"
+	"github.com/quid/vault/sdk/logical"
 )
 
 const (

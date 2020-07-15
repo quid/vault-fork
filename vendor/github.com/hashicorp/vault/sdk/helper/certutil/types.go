@@ -25,7 +25,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/helper/errutil"
+	"github.com/quid/vault/sdk/helper/errutil"
 )
 
 const (

@@ -12,15 +12,15 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 	wrapping "github.com/hashicorp/go-kms-wrapping"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/helper/testhelpers"
-	sealhelper "github.com/hashicorp/vault/helper/testhelpers/seal"
-	"github.com/hashicorp/vault/helper/testhelpers/teststorage"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/physical/raft"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/helper/testhelpers"
+	sealhelper "github.com/quid/vault/helper/testhelpers/seal"
+	"github.com/quid/vault/helper/testhelpers/teststorage"
+	vaulthttp "github.com/quid/vault/http"
+	"github.com/quid/vault/physical/raft"
+	"github.com/quid/vault/sdk/helper/logging"
+	"github.com/quid/vault/vault"
 )
 
 const (

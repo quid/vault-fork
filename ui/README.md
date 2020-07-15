@@ -66,7 +66,7 @@ long-form version of the npm script:
 
 ### Code Generators
 
-Make use of the many generators for code, try `ember help generate` for more details. If you're using a component that can be widely-used, consider making it an `addon` component instead (see [this PR](https://github.com/hashicorp/vault/pull/6629) for more details)
+Make use of the many generators for code, try `ember help generate` for more details. If you're using a component that can be widely-used, consider making it an `addon` component instead (see [this PR](https://github.com/quid/vault/pull/6629) for more details)
 
 eg. a reusable component named foo that you'd like in the core engine
 

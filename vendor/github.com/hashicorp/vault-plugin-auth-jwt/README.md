@@ -1,6 +1,6 @@
 # Vault Plugin: JWT Auth Backend [![CircleCI](https://circleci.com/gh/hashicorp/vault-plugin-auth-jwt.svg?style=svg)](https://circleci.com/gh/hashicorp/vault-plugin-auth-jwt)
 
-This is a standalone backend plugin for use with [Hashicorp Vault](https://www.github.com/hashicorp/vault).
+This is a standalone backend plugin for use with [Hashicorp Vault](https://www.github.com/quid/vault).
 This plugin allows for JWTs (including OIDC tokens) to authenticate with Vault.
 
 **Please note**: We take Vault's security and our users' trust very seriously. If you believe you have found a security issue in Vault, _please responsibly disclose_ by contacting us at [security@hashicorp.com](mailto:security@hashicorp.com).
@@ -8,7 +8,7 @@ This plugin allows for JWTs (including OIDC tokens) to authenticate with Vault.
 ## Quick Links
     - Vault Website: https://www.vaultproject.io
     - JWT Auth Docs: https://www.vaultproject.io/docs/auth/jwt.html
-    - Main Project Github: https://www.github.com/hashicorp/vault
+    - Main Project Github: https://www.github.com/quid/vault
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ If you wish to work on this plugin, you'll first need
 For local dev first make sure Go is properly installed, including
 setting up a [GOPATH](https://golang.org/doc/code.html#GOPATH).
 Next, clone this repository into
-`$GOPATH/src/github.com/hashicorp/vault-plugin-auth-jwt`.
+`$GOPATH/src/github.com/quid/vault-plugin-auth-jwt`.
 You can then download any required build tools by bootstrapping your
 environment:
 

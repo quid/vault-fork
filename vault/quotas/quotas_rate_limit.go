@@ -9,8 +9,8 @@ import (
 	"github.com/armon/go-metrics"
 	log "github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/helper/metricsutil"
-	"github.com/hashicorp/vault/sdk/helper/pathmanager"
+	"github.com/quid/vault/helper/metricsutil"
+	"github.com/quid/vault/sdk/helper/pathmanager"
 	"golang.org/x/time/rate"
 )
 

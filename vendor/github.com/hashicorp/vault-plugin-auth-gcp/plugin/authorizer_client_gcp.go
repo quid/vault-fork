@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
+	"github.com/quid/vault/sdk/helper/strutil"
 	"google.golang.org/api/compute/v1"
 	"google.golang.org/api/iam/v1"
 )

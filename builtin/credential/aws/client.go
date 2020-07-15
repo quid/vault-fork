@@ -12,8 +12,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/sts"
 	"github.com/hashicorp/errwrap"
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
-	"github.com/hashicorp/vault/sdk/helper/awsutil"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/helper/awsutil"
+	"github.com/quid/vault/sdk/logical"
 )
 
 // getRawClientConfig creates a aws-sdk-go config, which is used to create client

@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/logical"
 )
 
 const (

@@ -10,7 +10,7 @@ jobs:
         JOBS: 2
       image: node:10-buster
     shell: /usr/bin/env bash -euo pipefail -c
-    working_directory: /go/src/github.com/hashicorp/vault
+    working_directory: /go/src/github.com/quid/vault
     steps:
     - checkout
     - restore_cache:
@@ -31,7 +31,7 @@ jobs:
         JOBS: 2
       image: node:10-buster
     shell: /usr/bin/env bash -euo pipefail -c
-    working_directory: /go/src/github.com/hashicorp/vault
+    working_directory: /go/src/github.com/quid/vault
     resource_class: medium+
     steps:
     - checkout
@@ -71,7 +71,7 @@ jobs:
         JOBS: 2
       image: node:10-buster
     shell: /usr/bin/env bash -euo pipefail -c
-    working_directory: /go/src/github.com/hashicorp/vault
+    working_directory: /go/src/github.com/quid/vault
     resource_class: medium+
     steps:
     - checkout
@@ -88,7 +88,7 @@ jobs:
   build-go-dev:
     machine: true
     shell: /usr/bin/env bash -euo pipefail -c
-    working_directory: /go/src/github.com/hashicorp/vault
+    working_directory: /go/src/github.com/quid/vault
     steps:
     - run:
         command: |
@@ -147,7 +147,7 @@ jobs:
   test-go-race:
     machine: true
     shell: /usr/bin/env bash -euo pipefail -c
-    working_directory: /go/src/github.com/hashicorp/vault
+    working_directory: /go/src/github.com/quid/vault
     steps:
     - run:
         command: |
@@ -246,7 +246,7 @@ jobs:
   test-go:
     machine: true
     shell: /usr/bin/env bash -euo pipefail -c
-    working_directory: /go/src/github.com/hashicorp/vault
+    working_directory: /go/src/github.com/quid/vault
     parallelism: 2
     steps:
     - run:
@@ -510,7 +510,7 @@ workflows:
 #     docker:
 #     - image: alpine:3.10.2
 #     shell: /bin/sh
-#     working_directory: /go/src/github.com/hashicorp/vault
+#     working_directory: /go/src/github.com/quid/vault
 #   go-machine:
 #     environment:
 #       CIRCLECI_CLI_VERSION: 0.1.5546
@@ -520,19 +520,19 @@ workflows:
 #       GOTESTSUM_VERSION: 0.3.3
 #     machine: true
 #     shell: /usr/bin/env bash -euo pipefail -c
-#     working_directory: /go/src/github.com/hashicorp/vault
+#     working_directory: /go/src/github.com/quid/vault
 #   node:
 #     docker:
 #     - environment:
 #         JOBS: 2
 #       image: node:10-buster
 #     shell: /usr/bin/env bash -euo pipefail -c
-#     working_directory: /go/src/github.com/hashicorp/vault
+#     working_directory: /go/src/github.com/quid/vault
 #   python:
 #     docker:
 #     - image: python:3-alpine
 #     shell: /usr/bin/env bash -euo pipefail -c
-#     working_directory: /go/src/github.com/hashicorp/vault
+#     working_directory: /go/src/github.com/quid/vault
 # jobs:
 #   algolia-index:
 #     docker:

@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/helper/strutil"
+	"github.com/quid/vault/sdk/helper/strutil"
 )
 
 type client interface {

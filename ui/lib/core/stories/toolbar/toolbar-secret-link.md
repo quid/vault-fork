@@ -23,7 +23,7 @@ It should only be used inside of `Toolbar`.
 
 **See**
 
-- [Uses of ToolbarSecretLink](https://github.com/hashicorp/vault/search?l=Handlebars&q=ToolbarSecretLink+OR+toolbar-secret-link)
-- [ToolbarSecretLink Source Code](https://github.com/hashicorp/vault/blob/master/ui/app/components/toolbar-secret-link.js)
+- [Uses of ToolbarSecretLink](https://github.com/quid/vault/search?l=Handlebars&q=ToolbarSecretLink+OR+toolbar-secret-link)
+- [ToolbarSecretLink Source Code](https://github.com/quid/vault/blob/master/ui/app/components/toolbar-secret-link.js)
 
 ---

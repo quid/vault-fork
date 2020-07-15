@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hashicorp/vault/sdk/helper/base62"
+	"github.com/quid/vault/sdk/helper/base62"
 )
 
 const (

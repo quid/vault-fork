@@ -13,8 +13,8 @@ import (
 	"math/big"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/logical"
 
 	kmspb "google.golang.org/genproto/googleapis/cloud/kms/v1"
 )

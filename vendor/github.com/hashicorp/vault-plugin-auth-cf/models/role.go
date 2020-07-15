@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-sockaddr"
-	"github.com/hashicorp/vault/sdk/helper/tokenutil"
+	"github.com/quid/vault/sdk/helper/tokenutil"
 )
 
 // RoleEntry is a role as it's reflected in Vault's storage system.

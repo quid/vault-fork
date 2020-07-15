@@ -9,8 +9,8 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	log "github.com/hashicorp/go-hclog"
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/helper/identity"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/helper/identity"
+	"github.com/quid/vault/sdk/logical"
 )
 
 func BenchmarkStoragePacker(b *testing.B) {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/sdk/version"
+	"github.com/quid/vault/sdk/logical"
+	"github.com/quid/vault/sdk/version"
 )
 
 var (

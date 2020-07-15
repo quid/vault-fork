@@ -6,12 +6,12 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/logical"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/helper/namespace"
-	"github.com/hashicorp/vault/vault"
-	"github.com/hashicorp/vault/vault/quotas"
+	"github.com/quid/vault/helper/namespace"
+	"github.com/quid/vault/vault"
+	"github.com/quid/vault/vault/quotas"
 )
 
 var (

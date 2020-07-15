@@ -7,7 +7,7 @@ import HashiHead from '@hashicorp/react-head'
 export default function DownloadsPage({ releaseData }) {
   const changelogUrl = CHANGELOG_URL.length
     ? CHANGELOG_URL
-    : `https://github.com/hashicorp/vault/blob/v${VERSION}/CHANGELOG.md`
+    : `https://github.com/quid/vault/blob/v${VERSION}/CHANGELOG.md`
   return (
     <div id="p-downloads" className="g-container">
       <HashiHead is={Head} title="Downloads | Vault by Hashicorp" />

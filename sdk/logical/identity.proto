@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/hashicorp/vault/sdk/logical";
+option go_package = "github.com/quid/vault/sdk/logical";
 
 package logical;
 

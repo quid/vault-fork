@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/api"
-	"github.com/hashicorp/vault/internalshared/configutil"
+	"github.com/quid/vault/api"
+	"github.com/quid/vault/internalshared/configutil"
 	"github.com/ory/dockertest"
 )
 

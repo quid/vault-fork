@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/hashicorp/vault/sdk/helper/consts"
+	"github.com/quid/vault/sdk/helper/consts"
 )
 
 // RaftJoinResponse represents the response of the raft join API

@@ -11,7 +11,7 @@
 
 **See**
 
-- [Uses of LayoutLoading](https://github.com/hashicorp/vault/search?l=Handlebars&q=LayoutLoading)
-- [LayoutLoading Source Code](https://github.com/hashicorp/vault/blob/master/ui/app/components/layout-loading.js)
+- [Uses of LayoutLoading](https://github.com/quid/vault/search?l=Handlebars&q=LayoutLoading)
+- [LayoutLoading Source Code](https://github.com/quid/vault/blob/master/ui/app/components/layout-loading.js)
 
 ---

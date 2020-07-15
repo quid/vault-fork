@@ -7,8 +7,8 @@ import (
 	"net/http/pprof"
 	"strconv"
 
-	"github.com/hashicorp/vault/sdk/framework"
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/framework"
+	"github.com/quid/vault/sdk/logical"
 )
 
 func (b *SystemBackend) pprofPaths() []*framework.Path {

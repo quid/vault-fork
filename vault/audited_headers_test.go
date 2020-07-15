@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/vault/sdk/helper/salt"
+	"github.com/quid/vault/sdk/helper/salt"
 )
 
 func mockAuditedHeadersConfig(t *testing.T) *AuditedHeadersConfig {

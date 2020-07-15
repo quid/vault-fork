@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/hashicorp/vault/sdk/logical"
+	"github.com/quid/vault/sdk/logical"
 )
 
 // Formatter is an interface that is responsible for formating a

@@ -23,7 +23,7 @@ They are a stylistic alternative to checkboxes, but still use the input[type=che
 
 **See**
 
-- [Uses of Toggle](https://github.com/hashicorp/vault/search?l=Handlebars&q=Toggle+OR+toggle)
-- [Toggle Source Code](https://github.com/hashicorp/vault/blob/master/ui/app/components/toggle.js)
+- [Uses of Toggle](https://github.com/quid/vault/search?l=Handlebars&q=Toggle+OR+toggle)
+- [Toggle Source Code](https://github.com/quid/vault/blob/master/ui/app/components/toggle.js)
 
 ---

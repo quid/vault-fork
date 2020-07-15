@@ -16,11 +16,11 @@ import (
 
 	"github.com/go-test/deep"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/command/server"
-	"github.com/hashicorp/vault/helper/testhelpers"
-	"github.com/hashicorp/vault/sdk/helper/base62"
-	"github.com/hashicorp/vault/sdk/physical"
-	"github.com/hashicorp/vault/vault"
+	"github.com/quid/vault/command/server"
+	"github.com/quid/vault/helper/testhelpers"
+	"github.com/quid/vault/sdk/helper/base62"
+	"github.com/quid/vault/sdk/physical"
+	"github.com/quid/vault/vault"
 )
 
 const trailing_slash_key = "trailing_slash/"

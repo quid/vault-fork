@@ -10,7 +10,7 @@ import (
 	"github.com/hashicorp/errwrap"
 	hclog "github.com/hashicorp/go-hclog"
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/command/agent/sink"
+	"github.com/quid/vault/command/agent/sink"
 )
 
 // fileSink is a Sink implementation that writes a token to a file

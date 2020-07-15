@@ -3,8 +3,8 @@ package vault
 import (
 	"context"
 
-	"github.com/hashicorp/vault/vault/seal"
-	vaultseal "github.com/hashicorp/vault/vault/seal"
+	"github.com/quid/vault/vault/seal"
+	vaultseal "github.com/quid/vault/vault/seal"
 	testing "github.com/mitchellh/go-testing-interface"
 )
 

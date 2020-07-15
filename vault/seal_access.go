@@ -3,7 +3,7 @@ package vault
 import (
 	"context"
 
-	"github.com/hashicorp/vault/vault/seal"
+	"github.com/quid/vault/vault/seal"
 )
 
 // SealAccess is a wrapper around Seal that exposes accessor methods

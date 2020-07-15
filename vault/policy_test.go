@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/go-test/deep"
-	"github.com/hashicorp/vault/helper/namespace"
+	"github.com/quid/vault/helper/namespace"
 )
 
 var rawPolicy = strings.TrimSpace(`

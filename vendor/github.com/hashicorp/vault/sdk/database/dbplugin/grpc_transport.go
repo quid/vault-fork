@@ -11,7 +11,7 @@ import (
 	"google.golang.org/grpc/status"
 
 	"github.com/golang/protobuf/ptypes"
-	"github.com/hashicorp/vault/sdk/helper/pluginutil"
+	"github.com/quid/vault/sdk/helper/pluginutil"
 )
 
 var (

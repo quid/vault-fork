@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/helper/testhelpers/certhelpers"
-	"github.com/hashicorp/vault/sdk/database/helper/dbutil"
+	"github.com/quid/vault/helper/testhelpers/certhelpers"
+	"github.com/quid/vault/sdk/database/helper/dbutil"
 	"github.com/ory/dockertest"
 )
 

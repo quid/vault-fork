@@ -13,7 +13,7 @@ EXTERNAL_TOOLS_CI=\
 	github.com/elazarl/go-bindata-assetfs/... \
 	github.com/hashicorp/go-bindata/... \
 	github.com/mitchellh/gox \
-	golang.org/x/tools/cmd/goimports 
+	golang.org/x/tools/cmd/goimports
 EXTERNAL_TOOLS=\
 	github.com/client9/misspell/cmd/misspell
 GOFMT_FILES?=$$(find . -name '*.go' | grep -v pb.go | grep -v vendor)
@@ -90,7 +90,7 @@ cover:
 # any common errors.
 vet:
 	@$(GO_CMD) list -f '{{.Dir}}' ./... | grep -v /vendor/ \
-		| grep -v '.*github.com/hashicorp/vault$$' \
+		| grep -v '.*github.com/quid/vault$$' \
 		| xargs $(GO_CMD) vet ; if [ $$? -eq 1 ]; then \
 			echo ""; \
 			echo "Vet found suspicious constructs. Please check the reported constructs"; \
@@ -204,7 +204,7 @@ proto:
 	protoc sdk/database/dbplugin/*.proto --go_out=plugins=grpc,paths=source_relative:.
 	protoc sdk/plugin/pb/*.proto --go_out=plugins=grpc,paths=source_relative:.
 	sed -i -e 's/Id/ID/' vault/request_forwarding_service.pb.go
-	sed -i -e 's/Idp/IDP/' -e 's/Url/URL/' -e 's/Id/ID/' -e 's/IDentity/Identity/' -e 's/EntityId/EntityID/' -e 's/Api/API/' -e 's/Qr/QR/' -e 's/Totp/TOTP/' -e 's/Mfa/MFA/' -e 's/Pingid/PingID/' -e 's/protobuf:"/sentinel:"" protobuf:"/' -e 's/namespaceId/namespaceID/' -e 's/Ttl/TTL/' -e 's/BoundCidrs/BoundCIDRs/' helper/identity/types.pb.go helper/identity/mfa/types.pb.go helper/storagepacker/types.pb.go sdk/plugin/pb/backend.pb.go sdk/logical/identity.pb.go 
+	sed -i -e 's/Idp/IDP/' -e 's/Url/URL/' -e 's/Id/ID/' -e 's/IDentity/Identity/' -e 's/EntityId/EntityID/' -e 's/Api/API/' -e 's/Qr/QR/' -e 's/Totp/TOTP/' -e 's/Mfa/MFA/' -e 's/Pingid/PingID/' -e 's/protobuf:"/sentinel:"" protobuf:"/' -e 's/namespaceId/namespaceID/' -e 's/Ttl/TTL/' -e 's/BoundCidrs/BoundCIDRs/' helper/identity/types.pb.go helper/identity/mfa/types.pb.go helper/storagepacker/types.pb.go sdk/plugin/pb/backend.pb.go sdk/logical/identity.pb.go
 
 fmtcheck:
 	@true
@@ -269,7 +269,7 @@ stage-commit:
 	$(FAIL_IF_GPG_KEY_MISSING)
 	$(FAIL_IF_UNCOMMITTED_CHANGES)
 	@[ -n "$(STAGE_VERSION)" ] || { echo "You must set STAGE_VERSION to the version in semver-like format."; exit 1; }
-	set -x; $(GPG_KEY_VARS) && git commit --allow-empty --gpg-sign=$$GIT_GPG_KEY_ID -m 'release: stage v$(STAGE_VERSION)' 
+	set -x; $(GPG_KEY_VARS) && git commit --allow-empty --gpg-sign=$$GIT_GPG_KEY_ID -m 'release: stage v$(STAGE_VERSION)'
 
 publish-commit:
 	$(FAIL_IF_GPG_KEY_MISSING)

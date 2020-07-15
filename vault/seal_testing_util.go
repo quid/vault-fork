@@ -4,8 +4,8 @@ import (
 	"github.com/hashicorp/go-hclog"
 	wrapping "github.com/hashicorp/go-kms-wrapping"
 	aeadwrapper "github.com/hashicorp/go-kms-wrapping/wrappers/aead"
-	"github.com/hashicorp/vault/sdk/helper/logging"
-	"github.com/hashicorp/vault/vault/seal"
+	"github.com/quid/vault/sdk/helper/logging"
+	"github.com/quid/vault/vault/seal"
 	testing "github.com/mitchellh/go-testing-interface"
 )
 

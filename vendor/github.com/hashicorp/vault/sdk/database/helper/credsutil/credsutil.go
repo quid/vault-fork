@@ -6,8 +6,8 @@ import (
 
 	"fmt"
 
-	"github.com/hashicorp/vault/sdk/database/dbplugin"
-	"github.com/hashicorp/vault/sdk/helper/base62"
+	"github.com/quid/vault/sdk/database/dbplugin"
+	"github.com/quid/vault/sdk/helper/base62"
 )
 
 // CredentialsProducer can be used as an embedded interface in the Database

@@ -2,7 +2,7 @@
 
 package replication
 
-import "github.com/hashicorp/vault/sdk/helper/consts"
+import "github.com/quid/vault/sdk/helper/consts"
 
 type Cluster struct {
 	State              consts.ReplicationState
