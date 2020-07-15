@@ -17,7 +17,7 @@ import (
 	log "github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/vault/sdk/plugin/pb"
 	"github.com/rboyer/safeio"
-	bolt "go.etcd.io/bbolt"
+	bolt "github.com/etcd-io/bbolt"
 	"go.uber.org/atomic"
 
 	"github.com/hashicorp/raft"

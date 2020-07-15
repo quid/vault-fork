@@ -22,7 +22,7 @@ import (
 	"github.com/hashicorp/raft"
 	"github.com/hashicorp/vault/sdk/helper/jsonutil"
 	"github.com/hashicorp/vault/sdk/physical"
-	bolt "go.etcd.io/bbolt"
+	bolt "github.com/etcd-io/bbolt"
 )
 
 func getRaft(t testing.TB, bootstrap bool, noStoreState bool) (*RaftBackend, string) {

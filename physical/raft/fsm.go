@@ -24,7 +24,7 @@ import (
 	"github.com/hashicorp/vault/sdk/helper/strutil"
 	"github.com/hashicorp/vault/sdk/physical"
 	"github.com/hashicorp/vault/sdk/plugin/pb"
-	bolt "go.etcd.io/bbolt"
+	bolt "github.com/etcd-io/bbolt"
 )
 
 const (

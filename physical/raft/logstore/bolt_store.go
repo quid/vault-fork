@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	"github.com/hashicorp/raft"
-	bolt "go.etcd.io/bbolt"
+	bolt "github.com/etcd-io/bbolt"
 )
 
 const (

@@ -127,7 +127,7 @@ require (
 	github.com/sasha-s/go-deadlock v0.2.0
 	github.com/shirou/gopsutil v2.20.6-0.20200630091542-01afd763e6c0+incompatible
 	github.com/stretchr/testify v1.5.1
-	go.etcd.io/bbolt v1.3.4
+	github.com/etcd-io/bbolt v1.3.4
 	go.etcd.io/etcd v0.5.0-alpha.5.0.20200425165423-262c93980547
 	go.mongodb.org/mongo-driver v1.2.1
 	go.uber.org/atomic v1.6.0
